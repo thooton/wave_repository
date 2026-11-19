@@ -1,0 +1,12 @@
+{
+  "wave": 1,
+  "name": "Wave",
+  "description": "The official source for Wave apps and system mods for the Sonim XP3800.",
+  "maintainer": "thooton",
+  "homepage": "https://github.com/thooton/wave",
+  "sections": {
+    "applications": "Applications",
+    "system": "System"
+  },
+  "featured": ["com.wave.xp3", "com.list.xp3"]
+}

@@ -1,0 +1,29 @@
+name: Lint source
+
+on:
+  push:
+  schedule:
+    - cron: '46 3 * * *'
+  workflow_dispatch:
+    inputs:
+      download:
+        description: Download and verify the published artifacts
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Android build tools for APK inspection
+        if: github.event_name == 'schedule' || inputs.download
+        uses: android-actions/setup-android@v3
+        with:
+          packages: build-tools;35.0.1
+      - uses: thooton/wave/lint@v1
+        with:
+          download: ${{ (github.event_name == 'schedule' || inputs.download) && 'true' || 'false' }}
