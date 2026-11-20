@@ -14,7 +14,7 @@
   "depends": [],
   "conflicts": [],
   "replaces": [],
-  "section": "applications",
+  "section": "essentials",
   "id": "com.mail.xp3",
   "version": "1.5.2",
   "download": {

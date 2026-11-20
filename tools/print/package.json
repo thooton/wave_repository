@@ -14,7 +14,7 @@
   "depends": [],
   "conflicts": [],
   "replaces": [],
-  "section": "applications",
+  "section": "tools",
   "id": "com.print.xp3",
   "version": "0.3.5",
   "download": {

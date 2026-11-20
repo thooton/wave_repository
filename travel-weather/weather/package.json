@@ -14,7 +14,7 @@
   "depends": [],
   "conflicts": [],
   "replaces": [],
-  "section": "applications",
+  "section": "travel-weather",
   "id": "com.weather.xp3",
   "version": "1.0.5",
   "download": {

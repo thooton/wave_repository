@@ -5,8 +5,11 @@
   "maintainer": "thooton",
   "homepage": "https://github.com/thooton/wave",
   "sections": {
-    "applications": "Applications",
-    "system": "System"
+    "essentials": "Daily Essentials",
+    "reading-study": "Reading & Study",
+    "travel-weather": "Travel & Weather",
+    "tools": "Tools",
+    "system": "System Mods"
   },
   "featured": ["com.wave.xp3", "com.list.xp3"]
 }

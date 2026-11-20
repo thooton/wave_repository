@@ -14,7 +14,7 @@
   "depends": [],
   "conflicts": [],
   "replaces": [],
-  "section": "applications",
+  "section": "tools",
   "id": "com.serve.xp3",
   "version": "1.1.9",
   "download": {

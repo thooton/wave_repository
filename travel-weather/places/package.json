@@ -14,7 +14,7 @@
   "depends": [],
   "conflicts": [],
   "replaces": [],
-  "section": "applications",
+  "section": "travel-weather",
   "id": "com.places.xp3",
   "version": "1.7.2",
   "download": {
