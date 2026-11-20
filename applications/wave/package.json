@@ -1,0 +1,73 @@
+{
+  "type": "apk",
+  "name": "Wave",
+  "summary": "Browse, install and update XP3800 apps and system mods",
+  "description": "Wave brings apps and system mods from Git sources to your Sonim XP3800. Browse packages, check what is installed, and review changes before updating.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "id": "com.wave.xp3",
+  "version": "0.7.33",
+  "download": {
+    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.33/wave-0.7.33.apk",
+    "size": 230558,
+    "sha256": "39d54775852a4221af970db82d88b3ad12620bc35c855245dc0574d341bcbed3"
+  },
+  "changes": [
+    {
+      "version": "0.7.33",
+      "date": "2026-11-20",
+      "text": "Publish Wave with the checked-in debug key."
+    },
+    {
+      "version": "0.7.33",
+      "date": "2026-11-20",
+      "text": "Oh yeah."
+    },
+    {
+      "version": "0.7.33",
+      "date": "2026-11-19",
+      "text": "Use Android rooting terminology throughout Wave."
+    },
+    {
+      "version": "0.7.29",
+      "date": "2026-11-19",
+      "text": "Carries the security review's fixes (module ids must start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address)."
+    },
+    {
+      "version": "0.7.33",
+      "date": "2026-11-19",
+      "text": "Security review (docs/security.md) and its cheap fixes: module ids start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address, and a test that no failure carries a source's token."
+    },
+    {
+      "version": "0.7.28",
+      "date": "2026-11-19",
+      "text": "A closed Wave screen no longer stays in memory. Heap dumps from the soak showed each finished WaveActivity, with all its views, kept alive by two things: the self-update check's thread, whose Runnable held the Activity after it ended, and the icon worker, whose stack still held the last ImageView it drew for. The check now holds the application and finds the Activity again on the main thread; the icon worker holds its view weakly."
+    },
+    {
+      "version": "0.7.27",
+      "date": "2026-11-19",
+      "text": "A root script Wave gives up on is stopped. Ending the su client left the script's root subshell running (seen on Magisk 24: a timed-out script and its children ran on), so an install reported as failed could still finish. Each script's subshell now reports its pid first; after a timeout, an interrupt or the shell closing, a fresh su stops and kills that subshell and its whole tree before the failure is reported. Tested against a script that ignores HUP, TERM and PIPE with background and foregro…"
+    },
+    {
+      "version": "0.7.26",
+      "date": "2026-11-19",
+      "text": "A community's worth of sources stays usable. Refreshing 127 sources read every source again after each one finished (118 s on the desktop, quadratic); the index now keeps what it read of a source that hasn't changed, SourceController reads once for however many refreshes finished meanwhile, and Phone.apps asks the system once instead of once per listed package. Stress tooling: tools/qa/stress/sources.py, :app:core:stress."
+    },
+    {
+      "version": "0.7.33",
+      "date": "2026-11-19",
+      "text": "Core tests: nothing a test starts outlives it. The ProcessShell timeout test left its busy loop running after every :app:core:selfTest (the timeout kills the shell, not its subshell), and each spun at full CPU once its sandbox was gone. Sandbox now gives every sh and su its own process group, kills the groups and anything else carrying its environment on close, and records it; the run's last check fails on any such leak. The timeout test now stops its loop itself."
+    },
+    {
+      "version": "0.7.33",
+      "date": "2026-11-19",
+      "text": "Status at 0.7.25: counts (core 722, app 16,815, common 72, wavesrc 34, site 7 and 14, QA 37), the rooted QA suite and the new scenarios; check no longer fails on release unit tests and runs :app:app:selfTest."
+    }
+  ]
+}
