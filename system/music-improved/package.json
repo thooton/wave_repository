@@ -1,0 +1,67 @@
+{
+  "type": "module",
+  "name": "Music Improved",
+  "summary": "Choose which microSD folders appear in Music",
+  "description": "Limit the stock Music library to folders you choose. This filters discovery, search and shuffle without deleting songs or rewriting playlists.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/music",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27,
+    "firmware": [
+      "Sonim/XP3832/XP3800:8.1.0/3A.0.0-01-8.1.0-11.17.00/1:user/release-keys"
+    ]
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [
+    "music_argon"
+  ],
+  "section": "system",
+  "id": "music_improved",
+  "version": "1.0.2",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/music-improved-1.0.2/music-improved-1.0.2.zip",
+    "size": 246059,
+    "sha256": "955dd8121b431d446148e1d3d7d6b95a095bf683e6750d6317766878bca34678"
+  },
+  "changes": [
+    {
+      "version": "1.0.2",
+      "date": "2026-11-20",
+      "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-20",
+      "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-19",
+      "text": "Rename Music Improved and preserve installed settings."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-19",
+      "text": "Consolidate mod builds and require authorized release signatures."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-17",
+      "text": "Add opt-in microSD folder whitelist to stock Music."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-17",
+      "text": "Import stock Sonim XP3800 BMusic APK project."
+    }
+  ]
+}

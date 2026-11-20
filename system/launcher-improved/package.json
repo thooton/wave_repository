@@ -1,0 +1,82 @@
+{
+  "type": "module",
+  "name": "Launcher Improved",
+  "summary": "Arrange, group and hide apps in the stock tray",
+  "description": "Make folders, move apps and hide entries in the stock Sonim apps tray. Quick Settings initializes when opened, not when the tray starts.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/launcher",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27,
+    "firmware": [
+      "Sonim/XP3832/XP3800:8.1.0/3A.0.1-02-8.1.0-11.20.00/22:user/release-keys"
+    ]
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [
+    "launcher_argon"
+  ],
+  "section": "system",
+  "id": "launcher_improved",
+  "version": "1.1.1",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/launcher-improved-1.1.1/launcher-improved-1.1.1.zip",
+    "size": 1760105,
+    "sha256": "d5ea674f4c00604cea4b5f4343529ac96584fd62b87c953e9db3dca916ed490b"
+  },
+  "changes": [
+    {
+      "version": "1.1.1",
+      "date": "2026-11-20",
+      "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-20",
+      "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-20",
+      "text": "Splice dex into the stock APKs for test deploys."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-20",
+      "text": "Target 11.20.00 and retire AppDrawer."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-19",
+      "text": "Distinguish historical mod tests from current signed-device checks."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-19",
+      "text": "Verify renamed Messages hook targets in release builds."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-19",
+      "text": "Rename Launcher Improved and preserve installed settings."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-19",
+      "text": "Consolidate mod builds and require authorized release signatures."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-17",
+      "text": "Tray defaults: one integrated 4x3 screen (6 apps + Media, Reading, Tools, Files, System, Applications)."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-11-17",
+      "text": "Arranged apps tray: folders, Move, Move to folder, Hide, Rename/Remove folder, Reset layout."
+    }
+  ]
+}
