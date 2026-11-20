@@ -9,12 +9,12 @@ https://github.com/thooton/wave_repository
 
 Only manifests and icons live here. A manifest points to an immutable HTTPS
 release asset; Wave verifies the file before installing it. Do not edit
-package manifests by hand. [Wave Packages](https://github.com/thooton/wave_packages)
-CI writes the app and mod entries, and Wave's own CI publishes the Wave APK.
+package manifests by hand. The build repositories publish versioned APKs;
+a maintainer mirrors the release assets here using Wave’s publishing tool.
+Automatic mirroring from CI is optional.
 
-This source starts empty, with Wave and List selected for the featured list
-as soon as their versioned releases are published. The old Sonim `latest`
-release replaces files in place, so this repository does not point to it.
+Wave and List are featured once published. The old Sonim `latest` release
+replaces files in place, so this repository does not point to it.
 
 To host your own source, see the [format](https://github.com/thooton/wave/blob/master/docs/source-format.md)
 and [publishing guide](https://github.com/thooton/wave/blob/master/docs/publishing.md).

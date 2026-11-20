@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Flashcards",
+  "summary": "Review cards with spaced repetition",
+  "description": "Study your decks with Anki-style queues and FSRS scheduling. Use the keypad to grade each answer and resume your reviews later.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/flashcards",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.flashcards.xp3",
+  "version": "1.14.3",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/flashcards-1.14.3/flashcards-1.14.3.apk",
+    "size": 422405,
+    "sha256": "51ab96ec6ab4fa816b19bc415ca1fd16e3ff53e280ddfbec2988c6d3bd2bef93"
+  },
+  "changes": [
+    {
+      "version": "1.14.3",
+      "date": "2026-11-19",
+      "text": "The setup screen's title is readable (its own on_primary, day and night, instead of common's white on Anki's light bar)."
+    },
+    {
+      "version": "1.14.2",
+      "date": "2026-11-19",
+      "text": "An unreadable collection is set aside rather than saved over."
+    },
+    {
+      "version": "1.14.3",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.14.0",
+      "date": "2026-11-19",
+      "text": "Set up on the phone, on this phone only or with a command center that syncs the decks; no login built in."
+    },
+    {
+      "version": "1.14.3",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.14.3",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-11-03",
+      "text": "Show how much of a deck is learned, not just introduced."
+    },
+    {
+      "version": "1.12.2",
+      "date": "2026-10-30",
+      "text": "Import's file list now has an Import title."
+    },
+    {
+      "version": "1.12.1",
+      "date": "2026-10-29",
+      "text": "Reviews due on the same day come in a random order, as Anki's Due date, then random."
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-29",
+      "text": "Anki-style pop-up menu and an OLED dark mode."
+    }
+  ]
+}

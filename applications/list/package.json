@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "List",
+  "summary": "Write and check off simple lists",
+  "description": "Make checklists and manage items with the keypad and directional buttons. Designed for errands, packing and other short lists.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/list",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.list.xp3",
+  "version": "1.2.7",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/list-1.2.7/list-1.2.7.apk",
+    "size": 76971,
+    "sha256": "e9d85725822680e1f4946a69d0778c45d5a830b1fa420937b031299d8e27e97a"
+  },
+  "changes": [
+    {
+      "version": "1.2.7",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.2.5",
+      "date": "2026-10-30",
+      "text": "The menu now fits on screen, so Delete is never cut off."
+    },
+    {
+      "version": "1.2.4",
+      "date": "2026-10-28",
+      "text": "One Back always closes the task sheet, and a full list says so before you type."
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-10-28",
+      "text": "Down in the task sheet reaches Save, and opening Completed at the bottom shows its first task."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-10-17",
+      "text": "The To-do and Completed redesign, as 1.2.1 was already published."
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-10-17",
+      "text": "Pare the screen down to the To-do and Completed cards."
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-10-17",
+      "text": "Round every app's launcher icon like Canvas and Books."
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-10-17",
+      "text": "Redesign the main screen as a copy of Google Tasks."
+    }
+  ]
+}

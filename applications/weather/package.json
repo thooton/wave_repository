@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Weather",
+  "summary": "Current weather and forecasts for your locations",
+  "description": "Check current conditions and upcoming weather in a compact forecast view on the flip phone.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/weather",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.weather.xp3",
+  "version": "1.0.5",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/weather-1.0.5/weather-1.0.5.apk",
+    "size": 95691,
+    "sha256": "bb2d9d11d5fd492b20893b5deb116f132e229b549e6f5eb345e25247139c4378"
+  },
+  "changes": [
+    {
+      "version": "1.0.5",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-10-28",
+      "text": "A place no longer shows another place's kept forecast, and Back in search deletes a letter."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-22",
+      "text": "Scroll at once, without easing."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-22",
+      "text": "Up and Down move two rows, and stop at the last day."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-10-22",
+      "text": "CARROT's weather on the XP3, from Open-Meteo."
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-10-22",
+      "text": "Forecasts and place search from Open-Meteo, the phone's own position."
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-10-22",
+      "text": "Word gaps in small text, scroll to the ten days."
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-10-22",
+      "text": "The UI on sample forecasts, drawn as the mockups are."
+    }
+  ]
+}

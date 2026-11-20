@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Mail",
+  "summary": "Read and send Gmail with the keypad",
+  "description": "Check your inbox, open threads and send replies on the flip phone. Import your own Gmail setup file before signing in.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/mail",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.mail.xp3",
+  "version": "1.5.2",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/mail-1.5.2/mail-1.5.2.apk",
+    "size": 154328,
+    "sha256": "63163dd422beb5a62cc4b19a142630f6d254ec68c4dab19637619fd22ad8be89"
+  },
+  "changes": [
+    {
+      "version": "1.5.2",
+      "date": "2026-11-19",
+      "text": "Google's sign-in busy or failing is said as such, not as a refused login; late work after the app closes is dropped."
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-11-19",
+      "text": "Set up from a setup file, the user's own Gmail login or a command center; no login built in."
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-10-29",
+      "text": "Down in a dialog now ends on Save, not Cancel."
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-10-28",
+      "text": "Writing before Mail is set up no longer crashes, and the d-pad reaches every field."
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-10-23",
+      "text": "Email files from Transform."
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-19",
+      "text": "Suggest people as an address is typed in To or Cc, from your mail and your organization's directory."
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-10-18",
+      "text": "Write to the SD card through Android's folder grant."
+    }
+  ]
+}

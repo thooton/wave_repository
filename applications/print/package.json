@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Print",
+  "summary": "Print a PDF over your local Wi-Fi",
+  "description": "Choose a PDF stored on the phone and send it to a compatible network printer. No desktop printer driver needed.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/print",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.print.xp3",
+  "version": "0.3.5",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/print-0.3.5/print-0.3.5.apk",
+    "size": 796803,
+    "sha256": "cd64242f7f64e4b5d0ce12c9540b46bd0699dcb813270672f9d91617c675a0b4"
+  },
+  "changes": [
+    {
+      "version": "0.3.5",
+      "date": "2026-11-19",
+      "text": "Nothing hard-codes the installed id, so a copy under another id installs beside the original."
+    },
+    {
+      "version": "0.3.5",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "0.3.5",
+      "date": "2026-11-19",
+      "text": "Use common keypad and sizing helpers in existing UI consumers."
+    },
+    {
+      "version": "0.3.5",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "0.3.5",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "0.3.1",
+      "date": "2026-10-28",
+      "text": "One bad PDF no longer spoils the rest, and a dozen screens say what they should."
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-10-27",
+      "text": "Menu forgets printers, edits Recent, sorts files, acts on jobs."
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-10-27",
+      "text": "Menu does nothing, rather than repeat the screen's buttons."
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-10-26",
+      "text": "Menu opens Options, Back goes back."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-10-26",
+      "text": "Reach printers on a Wi-Fi without internet, and find Brother printers."
+    }
+  ]
+}

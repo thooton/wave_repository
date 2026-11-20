@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Serve",
+  "summary": "Share a folder over local Wi-Fi",
+  "description": "Pick a folder and serve its files over HTTP to a browser on the same network. Stop the server when you are done sharing.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/serve",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.serve.xp3",
+  "version": "1.1.9",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/serve-1.1.9/serve-1.1.9.apk",
+    "size": 76191,
+    "sha256": "7b083278dc105db68c3101d776b62df7abb1e10fb3d32eba820e1c5e7e0bbe44"
+  },
+  "changes": [
+    {
+      "version": "1.1.9",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.1.7",
+      "date": "2026-10-30",
+      "text": "Down on the folder picker's last row now stays put instead of jumping to Cancel."
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-10-28",
+      "text": "Switching folders while serving no longer stops with \"port in use\"."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-10-17",
+      "text": "Round every app's launcher icon like Canvas and Books."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-10-17",
+      "text": "Draw the launcher icon in the app's teal."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-10-17",
+      "text": "Strip explanatory and instructional text from every app."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-10-17",
+      "text": "Drop app names and counters from the top of the light apps."
+    },
+    {
+      "version": "1.1.9",
+      "date": "2026-10-16",
+      "text": "Finish the family restyle: menus, highlight, Mail's avatars."
+    }
+  ]
+}

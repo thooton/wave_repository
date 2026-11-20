@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Canvas",
+  "summary": "Courses, assignments and grades on your phone",
+  "description": "See assignments in a weekly view, check grades and discussions, and revisit cached coursework offline. Import your own Canvas setup file.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/canvas",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.todo.xp3",
+  "version": "1.8.3",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/canvas-1.8.3/canvas-1.8.3.apk",
+    "size": 353027,
+    "sha256": "7cd3d51dc342cb37ec572f81cdaeb736d1dd6d875e6c303ab75139d3d77d3095"
+  },
+  "changes": [
+    {
+      "version": "1.8.3",
+      "date": "2026-11-19",
+      "text": "Typing is saved at once when the app goes to the background or the editor closes within the autosave's pause, not dropped."
+    },
+    {
+      "version": "1.8.2",
+      "date": "2026-11-19",
+      "text": "A command center that can't say its Canvas no longer stops the sync; nothing for a signed-out account is saved after sign-out; late results after the app starts over are dropped."
+    },
+    {
+      "version": "1.8.3",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-11-19",
+      "text": "Set up from a setup file (an access token, a cookie service, or a command center's relay); no login built in."
+    },
+    {
+      "version": "1.8.3",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.8.3",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-11-12",
+      "text": "Launch waits behind a loading bar for the real state, and syncs faster."
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-11-12",
+      "text": "Read back a typed answer or link after turning it in."
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-10-29",
+      "text": "A failed turn-in no longer leaves 'Turning in…' on the page, and the other fixes."
+    },
+    {
+      "version": "1.5.1",
+      "date": "2026-10-28",
+      "text": "Shorter 12-hour reminder times so Reminders fits at Large."
+    }
+  ]
+}

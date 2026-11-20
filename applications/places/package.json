@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Places",
+  "summary": "Find businesses and other places with Google Maps",
+  "description": "Search nearby places and see useful details such as location and contact information. Import your own Maps setup file first.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/places",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.places.xp3",
+  "version": "1.7.2",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/places-1.7.2/places-1.7.2.apk",
+    "size": 198603,
+    "sha256": "f1adc8a49fa71a482a0c9674cd27e1a73cf12b6212c864a9e054050044733f34"
+  },
+  "changes": [
+    {
+      "version": "1.7.2",
+      "date": "2026-11-19",
+      "text": "Work finishing after the app closes or starts over is dropped."
+    },
+    {
+      "version": "1.7.2",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.7.2",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-11-19",
+      "text": "Set up from a setup file, the user's own Maps key or a command center; no login built in."
+    },
+    {
+      "version": "1.7.2",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-11-03",
+      "text": "Dropped-pin links show the coordinates and the nearest address."
+    },
+    {
+      "version": "1.5.3",
+      "date": "2026-10-28",
+      "text": "A slip in the Command center dialog keeps it open with what you typed."
+    },
+    {
+      "version": "1.5.2",
+      "date": "2026-10-28",
+      "text": "One Back now drops a Near edit, and leaving the app mid-edit no longer keeps the half-typed place."
+    },
+    {
+      "version": "1.5.1",
+      "date": "2026-10-19",
+      "text": "A missing key or book account names the command center route that sets it."
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-10-18",
+      "text": "Open Google Maps links."
+    }
+  ]
+}

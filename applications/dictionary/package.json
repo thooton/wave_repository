@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Dictionary",
+  "summary": "Look up words in an offline WordNet dictionary",
+  "description": "Search headwords and read definitions, example sentences and synonyms. The dictionary data is on the phone, so no connection is needed.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/dictionary",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.dictionary.xp3",
+  "version": "1.3.6",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/dictionary-1.3.6/dictionary-1.3.6.apk",
+    "size": 6477795,
+    "sha256": "95715d7b6a064df9f6980646ef54f4f0928329ef41b0181cc6b7cfc0aab95ac2"
+  },
+  "changes": [
+    {
+      "version": "1.3.6",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.3.6",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.3.6",
+      "date": "2026-10-31",
+      "text": "Show only the examples that use the word itself."
+    },
+    {
+      "version": "1.3.4",
+      "date": "2026-10-28",
+      "text": "OK opens a word only the shorthand has even when the dictionary has longer words beginning with it."
+    },
+    {
+      "version": "1.3.4",
+      "date": "2026-10-28",
+      "text": "OK on a word only the shorthand has, like into, opens that word."
+    },
+    {
+      "version": "1.3.3",
+      "date": "2026-10-28",
+      "text": "Reopening goes home, and long headwords and the Word of the Day read whole."
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-10-19",
+      "text": "Shorthand search reads phrases; Menu opens under the search capsule."
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-10-18",
+      "text": "Shorthand gets a search of its own."
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-18",
+      "text": "Anniversary Gregg shorthand, both ways."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-10-17",
+      "text": "OK opens the Word of the Day at home."
+    }
+  ]
+}

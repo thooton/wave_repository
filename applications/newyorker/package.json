@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "New Yorker",
+  "summary": "Read New Yorker articles on the flip phone",
+  "description": "Browse articles and read them in a layout built for the XP3800 screen and directional keys.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/newyorker",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.newyorker.xp3",
+  "version": "1.2.5",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/newyorker-1.2.5/newyorker-1.2.5.apk",
+    "size": 928296,
+    "sha256": "5d3d4c1f6298346be28218449513cc66278d848ff68754d032960139d49025fa"
+  },
+  "changes": [
+    {
+      "version": "1.2.5",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.2.5",
+      "date": "2026-11-19",
+      "text": "Use common keypad and sizing helpers in existing UI consumers."
+    },
+    {
+      "version": "1.2.5",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.2.5",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-10-28",
+      "text": "Articles end with one ink diamond, and leads without pictures, the menu and the Magazine behave."
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-10-20",
+      "text": "A larger default text size."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-20",
+      "text": "The site's own typesetting."
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-10-20",
+      "text": "A spinner while an article loads, not a half-drawn page."
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-10-20",
+      "text": "Smaller scroll steps in lists and articles."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-10-20",
+      "text": "The magazine's own launch icon."
+    }
+  ]
+}

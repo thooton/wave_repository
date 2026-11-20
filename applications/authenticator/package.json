@@ -1,0 +1,77 @@
+{
+  "type": "apk",
+  "name": "Authenticator",
+  "summary": "Two-factor codes for the accounts you use",
+  "description": "Keep time-based one-time codes on your phone. Add accounts from setup files, an image, or the keypad.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/authenticator",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "applications",
+  "id": "com.authenticator.xp3",
+  "version": "1.2.2",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/authenticator-1.2.2/authenticator-1.2.2.apk",
+    "size": 274790,
+    "sha256": "0eab86a24b28039cf87949dffbfc1e49aded1baab6f52dd9cd8b9c4fe2062267"
+  },
+  "changes": [
+    {
+      "version": "1.2.2",
+      "date": "2026-11-19",
+      "text": "An unreadable vault on the phone is never taken as empty and saved over; late work after the app closes is dropped."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-19",
+      "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-19",
+      "text": "The command center's kept list goes with its setup (signed out, on this phone only, or another command center)."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-19",
+      "text": "The photo provider's authority follows the package, so a test build installs beside the app."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-19",
+      "text": "Set up on the phone, keeping the accounts on this phone only or on a command center; no login built in."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-19",
+      "text": "Build and publish immutable Wave package releases alongside the legacy channel."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-11-17",
+      "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-10-29",
+      "text": "Back leaves the account form in one press, and the menu always shows Delete and Command center."
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-10-28",
+      "text": "The add form moves with Up and Down and keeps what you typed."
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-10-26",
+      "text": "FUCK ELON MUSK."
+    }
+  ]
+}
