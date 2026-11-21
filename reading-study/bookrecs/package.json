@@ -1,0 +1,32 @@
+{
+  "type": "apk",
+  "name": "Book Recs",
+  "summary": "Book recommendations from a title, genre or mood",
+  "description": "Describe what you'd like to read, such as books like a favourite title, a genre or a mood, and get a list of matching books with their authors and ISBNs. Needs the address of a book recommendation service in a setup file.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/bookrecs",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "reading-study",
+  "id": "com.bookrecs.xp3",
+  "version": "1.0.0",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/bookrecs-1.0.0/bookrecs-1.0.0.apk",
+    "size": 68727,
+    "sha256": "9966018228742813c1a9087bf381ccec9fcf45b4cb3c0d7bfd9e4f849034684e"
+  },
+  "changes": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-21",
+      "text": "Book recommendations from a title, genre or mood."
+    }
+  ]
+}
