@@ -1,0 +1,41 @@
+name: Catalog freshness
+
+# Every public Wave package version on master must be released and listed
+# here. Pushing a version bump is not publication: this fails until the
+# release is mirrored with Wave's publishing tool. Wave's tools/ship/ship check
+# verifies a worker's own packages; this audits all of them.
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: wave_repository
+      - uses: actions/checkout@v4
+        with:
+          repository: thooton/wave
+          path: wave
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: thooton/wave_packages
+          path: wave_packages
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Audit public package versions against this catalog
+        run: |
+          python3 wave/tools/ship/ship.py audit --workspace . | tee audit.txt
+          status=${PIPESTATUS[0]}
+          { echo '```'; cat audit.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit "$status"
