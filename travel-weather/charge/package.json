@@ -16,20 +16,30 @@
   "replaces": [],
   "section": "travel-weather",
   "id": "com.teslacharge.xp3",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/charge-1.1.3/charge-1.1.3.apk",
-    "size": 78657,
-    "sha256": "cd86c0f47a13f75e74d2d17202dc4892bd5d08dff175e41b0c67350bbebd9c28"
+    "url": "https://github.com/thooton/wave_packages/releases/download/charge-1.1.4/charge-1.1.4.apk",
+    "size": 79121,
+    "sha256": "f957bc853a493b3cd71c23549b27ce7e76d72039a85cac7a2fd7f062d561a71a"
   },
   "changes": [
+    {
+      "version": "1.1.4",
+      "date": "2026-11-20",
+      "text": "Publish packages into their catalog folders."
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-11-20",
+      "text": "Back off failed charging session polls."
+    },
     {
       "version": "1.1.3",
       "date": "2026-11-19",
       "text": "One token rotation per process however many stores, never landing on a newer setup; late results after the app starts over are dropped."
     },
     {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "date": "2026-11-19",
       "text": "Common: setup files written whole from any thread, leftover setup files cleaned up, and every app on common bumped."
     },
@@ -39,7 +49,7 @@
       "text": "Use the shared HTTP transport."
     },
     {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "date": "2026-11-19",
       "text": "Sign out forgets the rotated Tesla tokens instead of adopting them again."
     },
@@ -49,12 +59,12 @@
       "text": "Set up from a setup file (Tesla refresh token, optional Maps key and regional settings); nothing private in the build."
     },
     {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "date": "2026-11-19",
       "text": "Build and publish immutable Wave package releases alongside the legacy channel."
     },
     {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "date": "2026-11-17",
       "text": "Turn Android backup on in every app, so adb backup can move their data to another phone."
     },
@@ -62,16 +72,6 @@
       "version": "1.0.7",
       "date": "2026-10-28",
       "text": "Favorites opens on its first row, and Session asks Tesla again each time the app opens."
-    },
-    {
-      "version": "1.0.6",
-      "date": "2026-10-28",
-      "text": "Searches survive a tab switch, Find's old query is easy to replace, and a failed session check or expired sign-in says so plainly."
-    },
-    {
-      "version": "1.1.3",
-      "date": "2026-10-17",
-      "text": "Round every app's launcher icon like Canvas and Books."
     }
   ]
 }

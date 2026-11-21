@@ -12,40 +12,50 @@
     "sdk": 27
   },
   "id": "com.wave.xp3",
-  "version": "0.7.39",
+  "version": "0.7.41",
   "download": {
-    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.39/wave-0.7.39.apk",
-    "size": 232474,
-    "sha256": "d727acbe2ab47e5a0429cdd21b1dacc4f01caf13ff4b27820d1fc0aa929916d7"
+    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.41/wave-0.7.41.apk",
+    "size": 232334,
+    "sha256": "1a5f05363235941e95b350afd6cf2e8ef4682c7a656cf132a622e5bad37b41d2"
   },
   "changes": [
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
+      "date": "2026-11-20",
+      "text": "Simplify the root access screen."
+    },
+    {
+      "version": "0.7.41",
+      "date": "2026-11-20",
+      "text": "Simplify package details and show catalog folders."
+    },
+    {
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Replace the confirm screen with a confirm sheet."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Rename Home sections to Device and Links; allow T9 in Search."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Move Home root status below the welcome header."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Publish Wave with the checked-in debug key."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Oh yeah."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-19",
       "text": "Use Android rooting terminology throughout Wave."
     },
@@ -55,19 +65,9 @@
       "text": "Carries the security review's fixes (module ids must start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address)."
     },
     {
-      "version": "0.7.39",
+      "version": "0.7.41",
       "date": "2026-11-19",
       "text": "Security review (docs/security.md) and its cheap fixes: module ids start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address, and a test that no failure carries a source's token."
-    },
-    {
-      "version": "0.7.28",
-      "date": "2026-11-19",
-      "text": "A closed Wave screen no longer stays in memory. Heap dumps from the soak showed each finished WaveActivity, with all its views, kept alive by two things: the self-update check's thread, whose Runnable held the Activity after it ended, and the icon worker, whose stack still held the last ImageView it drew for. The check now holds the application and finds the Activity again on the main thread; the icon worker holds its view weakly."
-    },
-    {
-      "version": "0.7.27",
-      "date": "2026-11-19",
-      "text": "A root script Wave gives up on is stopped. Ending the su client left the script's root subshell running (seen on Magisk 24: a timed-out script and its children ran on), so an install reported as failed could still finish. Each script's subshell now reports its pid first; after a timeout, an interrupt or the shell closing, a fresh su stops and kills that subshell and its whole tree before the failure is reported. Tested against a script that ignores HUP, TERM and PIPE with background and foregro…"
     }
   ]
 }
