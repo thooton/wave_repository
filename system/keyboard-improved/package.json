@@ -19,13 +19,18 @@
   "replaces": [],
   "section": "system",
   "id": "keyboard_improved",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/keyboard-improved-1.2.2/keyboard-improved-1.2.2.zip",
-    "size": 763223,
-    "sha256": "13afc8db225ae15e5e64f947b5294c2caaa0ea094bd8d0426c43cbac1215d2be"
+    "url": "https://github.com/thooton/wave_packages/releases/download/keyboard-improved-1.3.0/keyboard-improved-1.3.0.zip",
+    "size": 763986,
+    "sha256": "d1d87523e8478fa3e5ed88c6b50326197163752d65e2c9ad6d41b52dde562835"
   },
   "changes": [
+    {
+      "version": "1.3.0",
+      "date": "2026-11-22",
+      "text": "Stop asking the app for the text after every key."
+    },
     {
       "version": "1.2.2",
       "date": "2026-11-22",
@@ -47,7 +52,7 @@
       "text": "Speed up the phone's own XT9 engine library."
     },
     {
-      "version": "1.2.2",
+      "version": "1.3.0",
       "date": "2026-11-21",
       "text": "Catalog description says two refreshes, as measured."
     },
