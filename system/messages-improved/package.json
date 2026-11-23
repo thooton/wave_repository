@@ -21,13 +21,23 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.3.0/messages-improved-1.3.0.zip",
-    "size": 3602013,
-    "sha256": "6c99691ee7cdce426fb4adbd91838649a9e984540c37c302d60201efd6abb05b"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.4.0/messages-improved-1.4.0.zip",
+    "size": 3604677,
+    "sha256": "02deb8b60854164d5b2987842bf52884b400f11b004af1c4b7595ff703a18243"
   },
   "changes": [
+    {
+      "version": "1.4.0",
+      "date": "2026-11-23",
+      "text": "Turn off iMessage sending and the connection notification."
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-11-23",
+      "text": "Show iMessage automatic renewal and relay status."
+    },
     {
       "version": "1.3.0",
       "date": "2026-11-22",
@@ -44,39 +54,29 @@
       "text": "Restore stock group chat colors."
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-11-20",
       "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-11-20",
       "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-11-20",
       "text": "Splice dex into the stock APKs for test deploys."
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-11-20",
       "text": "Target 11.20.00 and retire AppDrawer."
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-11-19",
       "text": "Verify renamed Messages hook targets in release builds."
-    },
-    {
-      "version": "1.3.0",
-      "date": "2026-11-19",
-      "text": "Rename Messages Improved and preserve installed settings."
-    },
-    {
-      "version": "1.3.0",
-      "date": "2026-11-19",
-      "text": "Consolidate mod builds and require authorized release signatures."
     }
   ]
 }
