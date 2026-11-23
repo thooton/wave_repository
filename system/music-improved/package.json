@@ -21,45 +21,50 @@
   ],
   "section": "system",
   "id": "music_improved",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/music-improved-1.0.2/music-improved-1.0.2.zip",
-    "size": 246059,
-    "sha256": "955dd8121b431d446148e1d3d7d6b95a095bf683e6750d6317766878bca34678"
+    "url": "https://github.com/thooton/wave_packages/releases/download/music-improved-1.0.3/music-improved-1.0.3.zip",
+    "size": 246065,
+    "sha256": "09cd677ec340b1aa259bf2048e1dbfa78b79b06e932c476c0d7fe1f03c38c8bd"
   },
   "changes": [
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
+      "date": "2026-11-22",
+      "text": "Rebuild with the Windows-safe mod checks."
+    },
+    {
+      "version": "1.0.3",
       "date": "2026-11-20",
       "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-20",
       "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-19",
       "text": "Build and publish immutable Wave package releases alongside the legacy channel."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-19",
       "text": "Rename Music Improved and preserve installed settings."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-19",
       "text": "Consolidate mod builds and require authorized release signatures."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-17",
       "text": "Add opt-in microSD folder whitelist to stock Music."
     },
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2026-11-17",
       "text": "Import stock Sonim XP3800 BMusic APK project."
     }

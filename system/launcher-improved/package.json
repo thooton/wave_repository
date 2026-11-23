@@ -21,25 +21,30 @@
   ],
   "section": "system",
   "id": "launcher_improved",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/launcher-improved-1.2.0/launcher-improved-1.2.0.zip",
-    "size": 1762703,
-    "sha256": "79b28c140f9b31e995b1f5794cfd9b7dbdc76e93559c95f8c9b436fee8780380"
+    "url": "https://github.com/thooton/wave_packages/releases/download/launcher-improved-1.2.1/launcher-improved-1.2.1.zip",
+    "size": 1762704,
+    "sha256": "2aa44c42d3c32f3abcc7336e4ea3e3b14369d502ce8642bab34e4f9a6bfc8eea"
   },
   "changes": [
+    {
+      "version": "1.2.1",
+      "date": "2026-11-22",
+      "text": "Rebuild with the Windows-safe mod checks."
+    },
     {
       "version": "1.2.0",
       "date": "2026-11-20",
       "text": "Add apps and simplify menus."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-20",
       "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-20",
       "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
     },
@@ -54,29 +59,24 @@
       "text": "Target 11.20.00 and retire AppDrawer."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-19",
       "text": "Distinguish historical mod tests from current signed-device checks."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-19",
       "text": "Verify renamed Messages hook targets in release builds."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-19",
       "text": "Rename Launcher Improved and preserve installed settings."
     },
     {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "date": "2026-11-19",
       "text": "Consolidate mod builds and require authorized release signatures."
-    },
-    {
-      "version": "1.2.0",
-      "date": "2026-11-17",
-      "text": "Tray defaults: one integrated 4x3 screen (6 apps + Media, Reading, Tools, Files, System, Applications)."
     }
   ]
 }

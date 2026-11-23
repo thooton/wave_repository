@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "Messages Improved",
-  "summary": "Group MMS fixes and a faster inbox",
-  "description": "Improves the stock Messages app and its providers. Group MMS goes to the right thread, and conversations open faster.",
+  "summary": "Group MMS fixes, a faster inbox and iMessage",
+  "description": "Improves the stock Messages app and its providers. Group MMS goes to the right thread, and conversations open faster. Optional iMessage through your own bridge server, set up under Settings > Advanced settings, with SMS fallback.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/messages",
   "requires": {
@@ -21,62 +21,62 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.1.2/messages-improved-1.1.2.zip",
-    "size": 3548009,
-    "sha256": "b31e0e47f89710984ce9794954853c8012dd6106ebe9799b9b2931c5b4b0129a"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.2.0/messages-improved-1.2.0.zip",
+    "size": 3605009,
+    "sha256": "902731a7687b58d40dbf42e411ba838bfe59285d5eb9078dcdc2d0dbf8b3f425"
   },
   "changes": [
+    {
+      "version": "1.2.0",
+      "date": "2026-11-22",
+      "text": "Optional iMessage through your own bridge server."
+    },
     {
       "version": "1.1.2",
       "date": "2026-11-21",
       "text": "Restore stock group chat colors."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-20",
       "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-20",
       "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-20",
       "text": "Splice dex into the stock APKs for test deploys."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-20",
       "text": "Target 11.20.00 and retire AppDrawer."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-19",
       "text": "Verify renamed Messages hook targets in release builds."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-19",
       "text": "Rename Messages Improved and preserve installed settings."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-19",
       "text": "Consolidate mod builds and require authorized release signatures."
     },
     {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "date": "2026-11-18",
       "text": "Prefetch recent messages on sustained inbox focus."
-    },
-    {
-      "version": "1.1.2",
-      "date": "2026-11-18",
-      "text": "Reveal conversations with their first visible messages."
     }
   ]
 }
