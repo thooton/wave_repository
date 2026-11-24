@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.41",
+  "version": "1.8.42",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.41/messages-improved-1.8.41.zip",
-    "size": 3713068,
-    "sha256": "676b3c708ecf39f906bdfb6b3bd467f68a6cc4dfb56c78ca04a3d5b35ab7a2e2"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.42/messages-improved-1.8.42.zip",
+    "size": 3713035,
+    "sha256": "fb715aeffd5eddd8f3502fd61cea9eec9baa765d22cfb2ef0b12d005af5181c7"
   },
   "changes": [
+    {
+      "version": "1.8.42",
+      "date": "2026-11-24",
+      "text": "Strip MIME parameters and allow application/ogg in iMessage media routing."
+    },
     {
       "version": "1.8.41",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.33",
       "date": "2026-11-24",
       "text": "1:1 zero-tokenizer single-lock WaveRecipientCache fast path, lazy-missing single-lock group path, pre-size WavePhoneSnapshot HashMap and raise prime thread priority."
-    },
-    {
-      "version": "1.8.32",
-      "date": "2026-11-24",
-      "text": "Preload all tapback reactions off-main in single query, zero-alloc drawTapbackGlyph and single-reaction badgesFor, cache cell broadcast PackageManager check."
     }
   ]
 }
