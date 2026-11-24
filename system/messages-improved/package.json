@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.14",
+  "version": "1.8.15",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.14/messages-improved-1.8.14.zip",
-    "size": 3702175,
-    "sha256": "6fec1543c5e7406e261e646a929dedb1bb14d60ee0dda541be30abfbf1dd386d"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.15/messages-improved-1.8.15.zip",
+    "size": 3702927,
+    "sha256": "7eca94fb64e3cadbdcb418d35bd9fe8b69a8f0121a9f46c66d6e45283ff26029"
   },
   "changes": [
+    {
+      "version": "1.8.15",
+      "date": "2026-11-24",
+      "text": "Defer 4 onStart BroadcastReceiver IPCs, zero-IPC Configuration.fontScale in inbox rows, cached isAirplaneModeOn."
+    },
     {
       "version": "1.8.14",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.6",
       "date": "2026-11-23",
       "text": "Fix duplicated MMS snippet lines in conversation list."
-    },
-    {
-      "version": "1.8.5",
-      "date": "2026-11-23",
-      "text": "Fix text sizing, image anti-aliasing, media margins, and chat-open performance."
     }
   ]
 }
