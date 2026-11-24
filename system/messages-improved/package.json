@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.35",
+  "version": "1.8.36",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.35/messages-improved-1.8.35.zip",
-    "size": 3711140,
-    "sha256": "bd36dd4802ca934a9244893ee13bcc970c5d30bd72fe57d6c7090b65e1794bf2"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.36/messages-improved-1.8.36.zip",
+    "size": 3711891,
+    "sha256": "54e3e2045908401a73e7277413ec34a2d088a2b28e74806239e982ab4281d338"
   },
   "changes": [
+    {
+      "version": "1.8.36",
+      "date": "2026-11-24",
+      "text": "Defer DownloadManager/RateController init (with lazy getInstance), MessagingNotification receiver registration, and DraftCache initial SQLite refresh past frame 1."
+    },
     {
       "version": "1.8.35",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.27",
       "date": "2026-11-24",
       "text": "Unpack LetterTileDrawable colors once to int[], reuse LetterTileDrawable in-place via WaveInboxUi.applyLetterAvatar, cache default contact color."
-    },
-    {
-      "version": "1.8.26",
-      "date": "2026-11-24",
-      "text": "Cache Me sender label across MessageItem/isMe, raise MessageItemCache 50->96, raise WaveInboxQuery priority, guard ConversationListItem attachment visibility."
     }
   ]
 }
