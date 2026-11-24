@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.42",
+  "version": "1.8.43",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.42/messages-improved-1.8.42.zip",
-    "size": 3713035,
-    "sha256": "fb715aeffd5eddd8f3502fd61cea9eec9baa765d22cfb2ef0b12d005af5181c7"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.43/messages-improved-1.8.43.zip",
+    "size": 3714320,
+    "sha256": "e9f32d9c00a0200b8f86a139c7de2ff8ecffb229ed296c23e6103a4cce7bc0cb"
   },
   "changes": [
+    {
+      "version": "1.8.43",
+      "date": "2026-11-24",
+      "text": "Batch inbox recipient prefetch, off-main E.164/ICU warm-up, deferred secondary inbox queries, rounded avatar cache, inbox row bind micro-opts."
+    },
     {
       "version": "1.8.42",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.34",
       "date": "2026-11-24",
       "text": "Drop per-row Log.d/v in MessageListItem inflate/init, cache integer and bool resources in ComposeMessageActivity.initResourceRefs, guard inbox snippet setText."
-    },
-    {
-      "version": "1.8.33",
-      "date": "2026-11-24",
-      "text": "1:1 zero-tokenizer single-lock WaveRecipientCache fast path, lazy-missing single-lock group path, pre-size WavePhoneSnapshot HashMap and raise prime thread priority."
     }
   ]
 }
