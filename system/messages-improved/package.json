@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.9",
+  "version": "1.8.10",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.9/messages-improved-1.8.9.zip",
-    "size": 3697419,
-    "sha256": "75e760719f30645ec34f39ba49be723379086bb4b884945d74665753644cd53d"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.10/messages-improved-1.8.10.zip",
+    "size": 3699026,
+    "sha256": "4f93d91b328f86318360b19f3c4bcefc6cef2625fa72e83e691cdad987cebcb2"
   },
   "changes": [
+    {
+      "version": "1.8.10",
+      "date": "2026-11-24",
+      "text": "Background row pre-inflation pool (WaveRowPool) and cached isSmsEnabled."
+    },
     {
       "version": "1.8.9",
       "date": "2026-11-24",
@@ -54,29 +59,24 @@
       "text": "Fix text sizing, image anti-aliasing, media margins, and chat-open performance."
     },
     {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "date": "2026-11-23",
       "text": "Open single videos directly in full-screen player (1.8.4)."
     },
     {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "date": "2026-11-23",
       "text": "Match full-screen video player HUD to Sonim MovieView (1.8.3)."
     },
     {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "date": "2026-11-23",
       "text": "Add elapsed and total duration timestamps to full-screen video player (1.8.2)."
     },
     {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "date": "2026-11-23",
       "text": "Disable video auto-play and play videos full-screen in AttachmentViewActivity (1.8.1)."
-    },
-    {
-      "version": "1.8.0",
-      "date": "2026-11-23",
-      "text": "Edit and unsend your own iMessages (WaveIMessageEdit.check/edit/unsend with Apple limits: edit within 15 min, up to 5 edits, text only; unsend within 2 min), SEND_EDIT 0x14 / SEND_UNSEND 0x15 answered by SEND_RESULT, confirmed edits/unsends applied to the row via WaveIMessageStore.applyEdit/applyUnsend; debug receiver (persist.wave.imsg.debug=1) for testing without UI; host and interop tests (verified on the XP3800 against the echo server: edit shows (edited), unsend marks the row Unsent, a ref…"
     }
   ]
 }
