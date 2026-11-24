@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.39",
+  "version": "1.8.40",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.39/messages-improved-1.8.39.zip",
-    "size": 3712778,
-    "sha256": "c164f8efc9f6670485e288ac81fa12ffc13148c0ef347567fb8026e69101ce07"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.40/messages-improved-1.8.40.zip",
+    "size": 3712645,
+    "sha256": "0ee223303056eff58b2d6546c4ece865d78d15d9b417cd283e62e35519372a0b"
   },
   "changes": [
+    {
+      "version": "1.8.40",
+      "date": "2026-11-24",
+      "text": "Non-blocking SharedPreferences XML disk load kick-off at app_start, cache ConversationList config bool and status bar color."
+    },
     {
       "version": "1.8.39",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.31",
       "date": "2026-11-24",
       "text": "Cache runtime permission grants per process in MessageUtils.checkPermissionsIfNeeded/hasBasicPermissions to skip 14-16 PackageManager Binder IPCs per Activity open."
-    },
-    {
-      "version": "1.8.30",
-      "date": "2026-11-24",
-      "text": "Share immutable ForegroundColorSpan and drop Log.v in MessageListItem.<init>, cache default send button drawables in onResume, guard inbox date setText."
     }
   ]
 }
