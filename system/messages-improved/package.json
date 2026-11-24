@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.22",
+  "version": "1.8.23",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.22/messages-improved-1.8.22.zip",
-    "size": 3706190,
-    "sha256": "552c216a5c05d4a4186e51619d122510ca8bd37aa72da4bf26e117f42b60a42a"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.23/messages-improved-1.8.23.zip",
+    "size": 3706743,
+    "sha256": "43252dc41538aeca4c8d2db15e5102d091d0c64ea1a058a4f4e4e5b071082ed0"
   },
   "changes": [
+    {
+      "version": "1.8.23",
+      "date": "2026-11-24",
+      "text": "Cache hardware isMultiSimEnabledMms and CountryDetector ISO, 1:1 zero-StringBuilder formatNames, short-circuit empty tapbacks."
+    },
     {
       "version": "1.8.22",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.14",
       "date": "2026-11-24",
       "text": "Cold-start root layout pre-inflation, cached Contact rounded avatar, skip duplicate onStart updateTitle and cold Contact cache wipe."
-    },
-    {
-      "version": "1.8.13",
-      "date": "2026-11-24",
-      "text": "Fast Linkify pre-scan in RowTextView, universal plain-text formatMessage, skip redundant requestLayout, async iMessage DB cache warm."
     }
   ]
 }
