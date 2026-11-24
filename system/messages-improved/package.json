@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.25",
+  "version": "1.8.26",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.25/messages-improved-1.8.25.zip",
-    "size": 3707751,
-    "sha256": "891e5bcb2219a0a80a145c0733bf6e0153d883fb3d222f795691874de0515984"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.26/messages-improved-1.8.26.zip",
+    "size": 3708301,
+    "sha256": "5ab87ef0ed32892626d46e014d66c59a61e92c266e4db795146af01cd3fc39b6"
   },
   "changes": [
+    {
+      "version": "1.8.26",
+      "date": "2026-11-24",
+      "text": "Cache Me sender label across MessageItem/isMe, raise MessageItemCache 50->96, raise WaveInboxQuery priority, guard ConversationListItem attachment visibility."
+    },
     {
       "version": "1.8.25",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.17",
       "date": "2026-11-24",
       "text": "Adopt prefetched inbox cursor for zero-SQLite chat open, eager off-main media meta warmup, cached typing hint targets."
-    },
-    {
-      "version": "1.8.16",
-      "date": "2026-11-24",
-      "text": "Defer cold-start background DB/Binder contention (Conversation.init, CountryDetector, mobileDataObserver, receipt policy, MMS sweep) and skip read-row SpannableStringBuilder."
     }
   ]
 }
