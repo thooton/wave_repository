@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.31",
+  "version": "1.8.32",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.31/messages-improved-1.8.31.zip",
-    "size": 3710430,
-    "sha256": "cb1f5516ac4dbe3138b13839f624a62d56efcde1c8f12c4952321e35d9c62859"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.32/messages-improved-1.8.32.zip",
+    "size": 3710471,
+    "sha256": "f4b5c6d484298c91f240830b6a9843cbe0714132ba02ff1f45bb6a3904c945a0"
   },
   "changes": [
+    {
+      "version": "1.8.32",
+      "date": "2026-11-24",
+      "text": "Preload all tapback reactions off-main in single query, zero-alloc drawTapbackGlyph and single-reaction badgesFor, cache cell broadcast PackageManager check."
+    },
     {
       "version": "1.8.31",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.23",
       "date": "2026-11-24",
       "text": "Cache hardware isMultiSimEnabledMms and CountryDetector ISO, 1:1 zero-StringBuilder formatNames, short-circuit empty tapbacks."
-    },
-    {
-      "version": "1.8.22",
-      "date": "2026-11-24",
-      "text": "Harvest in-flight Compose/Inbox root inflation Futures on cold start, raise pool priority, yield inbox row prewarm during cold chat open."
     }
   ]
 }
