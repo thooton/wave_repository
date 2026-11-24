@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.12",
+  "version": "1.8.13",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.12/messages-improved-1.8.12.zip",
-    "size": 3701321,
-    "sha256": "0bcaa8ab6bad9c96695cdc4e04df52a811fab9356bf40ce17ef100e44be0bff8"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.13/messages-improved-1.8.13.zip",
+    "size": 3701833,
+    "sha256": "b3c59b102fa3f1f251945427fcd42739d474f256d82b668f9e78b590617d31da"
   },
   "changes": [
+    {
+      "version": "1.8.13",
+      "date": "2026-11-24",
+      "text": "Fast Linkify pre-scan in RowTextView, universal plain-text formatMessage, skip redundant requestLayout, async iMessage DB cache warm."
+    },
     {
       "version": "1.8.12",
       "date": "2026-11-24",
@@ -69,14 +74,9 @@
       "text": "Fix text sizing, image anti-aliasing, media margins, and chat-open performance."
     },
     {
-      "version": "1.8.12",
+      "version": "1.8.13",
       "date": "2026-11-23",
       "text": "Open single videos directly in full-screen player (1.8.4)."
-    },
-    {
-      "version": "1.8.12",
-      "date": "2026-11-23",
-      "text": "Match full-screen video player HUD to Sonim MovieView (1.8.3)."
     }
   ]
 }
