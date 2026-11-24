@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.10",
+  "version": "1.8.11",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.10/messages-improved-1.8.10.zip",
-    "size": 3699026,
-    "sha256": "4f93d91b328f86318360b19f3c4bcefc6cef2625fa72e83e691cdad987cebcb2"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.11/messages-improved-1.8.11.zip",
+    "size": 3700728,
+    "sha256": "e0dd4815058c2eb17b25c887cf950ad54495a3836411d831a8bce7497dfb702a"
   },
   "changes": [
+    {
+      "version": "1.8.11",
+      "date": "2026-11-24",
+      "text": "Non-blocking Contact.getMe in onResume, universal hidden-avatar fast path, early pre-addView inbox query."
+    },
     {
       "version": "1.8.10",
       "date": "2026-11-24",
@@ -59,24 +64,19 @@
       "text": "Fix text sizing, image anti-aliasing, media margins, and chat-open performance."
     },
     {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "date": "2026-11-23",
       "text": "Open single videos directly in full-screen player (1.8.4)."
     },
     {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "date": "2026-11-23",
       "text": "Match full-screen video player HUD to Sonim MovieView (1.8.3)."
     },
     {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "date": "2026-11-23",
       "text": "Add elapsed and total duration timestamps to full-screen video player (1.8.2)."
-    },
-    {
-      "version": "1.8.10",
-      "date": "2026-11-23",
-      "text": "Disable video auto-play and play videos full-screen in AttachmentViewActivity (1.8.1)."
     }
   ]
 }
