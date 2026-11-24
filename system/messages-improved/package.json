@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.29",
+  "version": "1.8.30",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.29/messages-improved-1.8.29.zip",
-    "size": 3709876,
-    "sha256": "3644a89519ef8e7beb124b1f1006e4c0c18841724706db8e55be321b52addf1d"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.30/messages-improved-1.8.30.zip",
+    "size": 3710691,
+    "sha256": "c4c942c4319fb0528a4aa44261f4977b09e960b783dde474469c8a99961214ab"
   },
   "changes": [
+    {
+      "version": "1.8.30",
+      "date": "2026-11-24",
+      "text": "Share immutable ForegroundColorSpan and drop Log.v in MessageListItem.<init>, cache default send button drawables in onResume, guard inbox date setText."
+    },
     {
       "version": "1.8.29",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.21",
       "date": "2026-11-24",
       "text": "Single-IPC JPEG decodeCrispBitmap with RGB_565 thumbnails, guard drawRightStatusIndicator visibility, cache Compose XML config booleans."
-    },
-    {
-      "version": "1.8.20",
-      "date": "2026-11-24",
-      "text": "Fast cached group timestamp join, skip duplicate updateBodyTextView and redundant touch listener/SIM visibility writes, TTL-cached displayName."
     }
   ]
 }
