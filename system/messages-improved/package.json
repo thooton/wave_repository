@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.36",
+  "version": "1.8.37",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.36/messages-improved-1.8.36.zip",
-    "size": 3711891,
-    "sha256": "54e3e2045908401a73e7277413ec34a2d088a2b28e74806239e982ab4281d338"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.37/messages-improved-1.8.37.zip",
+    "size": 3711888,
+    "sha256": "d77a5545dd834ec048a4eff35cbcad249be0f343d6fea4fa42405d1568aaee09"
   },
   "changes": [
+    {
+      "version": "1.8.37",
+      "date": "2026-11-24",
+      "text": "Lazy-init ThumbnailManager (skipping 2 sync PNG decodes) and PduLoaderManager in MmsApp, thread-safe main-looper BackgroundLoaderManager, defer CountryDetector getSystemService IPC."
+    },
     {
       "version": "1.8.36",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.28",
       "date": "2026-11-24",
       "text": "Tighten URL Linkify pre-scan for normal punctuation/times, same-String RowTextView fast-return, lazy collectPduWarmups, zero-copy rawBody and fast notice/placeholder checks."
-    },
-    {
-      "version": "1.8.27",
-      "date": "2026-11-24",
-      "text": "Unpack LetterTileDrawable colors once to int[], reuse LetterTileDrawable in-place via WaveInboxUi.applyLetterAvatar, cache default contact color."
     }
   ]
 }
