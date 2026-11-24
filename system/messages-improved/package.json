@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.38",
+  "version": "1.8.39",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.38/messages-improved-1.8.38.zip",
-    "size": 3712804,
-    "sha256": "2f75176836cf3e2f18d850a566597943e93f1a8578aa274eb1322634e9e1082c"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.39/messages-improved-1.8.39.zip",
+    "size": 3712778,
+    "sha256": "c164f8efc9f6670485e288ac81fa12ffc13148c0ef347567fb8026e69101ce07"
   },
   "changes": [
+    {
+      "version": "1.8.39",
+      "date": "2026-11-24",
+      "text": "Raise WaveRowPool root harvest timeout to 450ms, chain inbox-row prewarm after inbox-root finishes, mark compose active in obtainComposeRoot."
+    },
     {
       "version": "1.8.38",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.30",
       "date": "2026-11-24",
       "text": "Share immutable ForegroundColorSpan and drop Log.v in MessageListItem.<init>, cache default send button drawables in onResume, guard inbox date setText."
-    },
-    {
-      "version": "1.8.29",
-      "date": "2026-11-24",
-      "text": "Reuse LetterTileDrawable in-place for named contacts, guard QuickContactBadge setImageDrawable/setVisibility, cache inbox row height dimensions."
     }
   ]
 }
