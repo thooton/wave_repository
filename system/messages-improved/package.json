@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.18",
+  "version": "1.8.19",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.18/messages-improved-1.8.18.zip",
-    "size": 3704798,
-    "sha256": "4dfdd4604a0e7e1151042b3ac6ea6c514b1f8e4419ca55d5ffb63cbfb989fc0d"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.19/messages-improved-1.8.19.zip",
+    "size": 3705182,
+    "sha256": "f5cb05e2134544140222486b26e3273f8b0b37274af089b8686264251357a16b"
   },
   "changes": [
+    {
+      "version": "1.8.19",
+      "date": "2026-11-24",
+      "text": "Skip dead mCanClusterWithPreviousMessage cursor seeks, cache showDateSent bool, guard markAsSelected, TelephonyProvider RAM temp_store and 4MB cache."
+    },
     {
       "version": "1.8.18",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.10",
       "date": "2026-11-24",
       "text": "Background row pre-inflation pool (WaveRowPool) and cached isSmsEnabled."
-    },
-    {
-      "version": "1.8.9",
-      "date": "2026-11-24",
-      "text": "Harvest early history query before first frame, cached WaveTimeFormat, reuse inbox group avatars."
     }
   ]
 }
