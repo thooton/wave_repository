@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.17",
+  "version": "1.8.18",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.17/messages-improved-1.8.17.zip",
-    "size": 3704104,
-    "sha256": "2893635b9a1d2688407c6da503e6f6fd98ea0e3a3fba2084a5a073af61aa3c39"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.18/messages-improved-1.8.18.zip",
+    "size": 3704798,
+    "sha256": "4dfdd4604a0e7e1151042b3ac6ea6c514b1f8e4419ca55d5ffb63cbfb989fc0d"
   },
   "changes": [
+    {
+      "version": "1.8.18",
+      "date": "2026-11-24",
+      "text": "Pre-decode inline photo/video thumbnails off-main, reuse InlineVisualView in-place, cache RowHolder MMS views and typeface, zero-alloc read inbox formatMessage."
+    },
     {
       "version": "1.8.17",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.9",
       "date": "2026-11-24",
       "text": "Harvest early history query before first frame, cached WaveTimeFormat, reuse inbox group avatars."
-    },
-    {
-      "version": "1.8.8",
-      "date": "2026-11-24",
-      "text": "Eliminate redundant SMS Linkify/zoom prefs, start history query in initialize, async phone snapshot & inbox row reuse."
     }
   ]
 }
