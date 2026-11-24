@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.16",
+  "version": "1.8.17",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.16/messages-improved-1.8.16.zip",
-    "size": 3703635,
-    "sha256": "f7b774cbc10c4550d52442827123621c82f40e5f194dc785aad1de4c9f064ffd"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.17/messages-improved-1.8.17.zip",
+    "size": 3704104,
+    "sha256": "2893635b9a1d2688407c6da503e6f6fd98ea0e3a3fba2084a5a073af61aa3c39"
   },
   "changes": [
+    {
+      "version": "1.8.17",
+      "date": "2026-11-24",
+      "text": "Adopt prefetched inbox cursor for zero-SQLite chat open, eager off-main media meta warmup, cached typing hint targets."
+    },
     {
       "version": "1.8.16",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.8",
       "date": "2026-11-24",
       "text": "Eliminate redundant SMS Linkify/zoom prefs, start history query in initialize, async phone snapshot & inbox row reuse."
-    },
-    {
-      "version": "1.8.7",
-      "date": "2026-11-24",
-      "text": "Fast-path group iMessages & carrier text MMS, launch history query in onStart, offload startup I/O."
     }
   ]
 }
