@@ -21,62 +21,62 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.4.0",
+  "version": "1.8.4",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.4.0/messages-improved-1.4.0.zip",
-    "size": 3604677,
-    "sha256": "02deb8b60854164d5b2987842bf52884b400f11b004af1c4b7595ff703a18243"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.4/messages-improved-1.8.4.zip",
+    "size": 3687472,
+    "sha256": "1a7f30d948e101e171d0cb9ccce2f240594707a2b7ff53e815e652b2fcf07638"
   },
   "changes": [
     {
-      "version": "1.4.0",
+      "version": "1.8.4",
       "date": "2026-11-23",
-      "text": "Turn off iMessage sending and the connection notification."
+      "text": "Open single videos directly in full-screen player (1.8.4)."
     },
     {
-      "version": "1.4.0",
+      "version": "1.8.4",
       "date": "2026-11-23",
-      "text": "Show iMessage automatic renewal and relay status."
+      "text": "Match full-screen video player HUD to Sonim MovieView (1.8.3)."
     },
     {
-      "version": "1.3.0",
-      "date": "2026-11-22",
-      "text": "Pair with imsg-server using a one-time code."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "Add elapsed and total duration timestamps to full-screen video player (1.8.2)."
     },
     {
-      "version": "1.2.0",
-      "date": "2026-11-22",
-      "text": "Optional iMessage through your own bridge server."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "Disable video auto-play and play videos full-screen in AttachmentViewActivity (1.8.1)."
     },
     {
-      "version": "1.1.2",
-      "date": "2026-11-21",
-      "text": "Restore stock group chat colors."
+      "version": "1.8.0",
+      "date": "2026-11-23",
+      "text": "Edit and unsend your own iMessages (WaveIMessageEdit.check/edit/unsend with Apple limits: edit within 15 min, up to 5 edits, text only; unsend within 2 min), SEND_EDIT 0x14 / SEND_UNSEND 0x15 answered by SEND_RESULT, confirmed edits/unsends applied to the row via WaveIMessageStore.applyEdit/applyUnsend; debug receiver (persist.wave.imsg.debug=1) for testing without UI; host and interop tests (verified on the XP3800 against the echo server: edit shows (edited), unsend marks the row Unsent, a ref…"
     },
     {
-      "version": "1.4.0",
-      "date": "2026-11-20",
-      "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "Align inline voice message margins with native Sonim bubbles (1.7.4)."
     },
     {
-      "version": "1.4.0",
-      "date": "2026-11-20",
-      "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "Fix the crash opening a conversation with a photo/video/slideshow iMessage (MessageListItem.setOnClickListener used mImageView, which is never inflated when WaveMessageUi draws the media itself); tools/testing/ShareMulti: share several files to Messages for tests (verified on the XP3800: 3-photo iMessage sent and received, thread opens)."
     },
     {
-      "version": "1.4.0",
-      "date": "2026-11-20",
-      "text": "Splice dex into the stock APKs for test deploys."
+      "version": "1.7.3",
+      "date": "2026-11-23",
+      "text": "Version for a312c0e2 (texts not held behind waiting photos, no SMS/MMS duplicate while reconnecting after a restart, less traffic per reconnect)."
     },
     {
-      "version": "1.4.0",
-      "date": "2026-11-20",
-      "text": "Target 11.20.00 and retire AppDrawer."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "IMessage: a text no longer waits behind a photo that cannot download yet (only tapbacks, edits, unsends and replies to the waiting message stay behind it; a new arrival does not retry waiting downloads early); a message resent by stock Messages while iMessage is still reconnecting after a restart waits for its earlier send instead of going out as SMS/MMS; no REG_INFO request on connect (the server sends it), handles once per process then every 6 h, connection notification only reposted when its…"
     },
     {
-      "version": "1.4.0",
-      "date": "2026-11-19",
-      "text": "Verify renamed Messages hook targets in release builds."
+      "version": "1.8.4",
+      "date": "2026-11-23",
+      "text": "Align BMms UI polish with native Sonim aesthetic and add in-chat voice playback (1.7.2)."
     }
   ]
 }
