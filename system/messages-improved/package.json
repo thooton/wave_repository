@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.19",
+  "version": "1.8.20",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.19/messages-improved-1.8.19.zip",
-    "size": 3705182,
-    "sha256": "f5cb05e2134544140222486b26e3273f8b0b37274af089b8686264251357a16b"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.20/messages-improved-1.8.20.zip",
+    "size": 3705316,
+    "sha256": "279c7f37124429eba561df004fff9fdea38869cc9c44e854b62ca353a315dd3f"
   },
   "changes": [
+    {
+      "version": "1.8.20",
+      "date": "2026-11-24",
+      "text": "Fast cached group timestamp join, skip duplicate updateBodyTextView and redundant touch listener/SIM visibility writes, TTL-cached displayName."
+    },
     {
       "version": "1.8.19",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.11",
       "date": "2026-11-24",
       "text": "Non-blocking Contact.getMe in onResume, universal hidden-avatar fast path, early pre-addView inbox query."
-    },
-    {
-      "version": "1.8.10",
-      "date": "2026-11-24",
-      "text": "Background row pre-inflation pool (WaveRowPool) and cached isSmsEnabled."
     }
   ]
 }
