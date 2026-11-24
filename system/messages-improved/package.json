@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.21",
+  "version": "1.8.22",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.21/messages-improved-1.8.21.zip",
-    "size": 3705593,
-    "sha256": "93e5d7dbf9ff408f3077c95d97de441f20cffb5710dd619bdbaedf84b634ff16"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.22/messages-improved-1.8.22.zip",
+    "size": 3706190,
+    "sha256": "552c216a5c05d4a4186e51619d122510ca8bd37aa72da4bf26e117f42b60a42a"
   },
   "changes": [
+    {
+      "version": "1.8.22",
+      "date": "2026-11-24",
+      "text": "Harvest in-flight Compose/Inbox root inflation Futures on cold start, raise pool priority, yield inbox row prewarm during cold chat open."
+    },
     {
       "version": "1.8.21",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.13",
       "date": "2026-11-24",
       "text": "Fast Linkify pre-scan in RowTextView, universal plain-text formatMessage, skip redundant requestLayout, async iMessage DB cache warm."
-    },
-    {
-      "version": "1.8.12",
-      "date": "2026-11-24",
-      "text": "Skip non-RCS Suntek init, pre-inflate Compose root layout, async default prefs, inbox threads index."
     }
   ]
 }
