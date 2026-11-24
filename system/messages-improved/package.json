@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.27",
+  "version": "1.8.28",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.27/messages-improved-1.8.27.zip",
-    "size": 3709034,
-    "sha256": "6a6a97e82764d7e361ab598fd98a4ee304757f109ca440fa2c88bf1706091031"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.28/messages-improved-1.8.28.zip",
+    "size": 3709305,
+    "sha256": "c25d99e48d3e19050a71b13277a4c1bc57dd910317abaaffa19a828e2fc10dd2"
   },
   "changes": [
+    {
+      "version": "1.8.28",
+      "date": "2026-11-24",
+      "text": "Tighten URL Linkify pre-scan for normal punctuation/times, same-String RowTextView fast-return, lazy collectPduWarmups, zero-copy rawBody and fast notice/placeholder checks."
+    },
     {
       "version": "1.8.27",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.19",
       "date": "2026-11-24",
       "text": "Skip dead mCanClusterWithPreviousMessage cursor seeks, cache showDateSent bool, guard markAsSelected, TelephonyProvider RAM temp_store and 4MB cache."
-    },
-    {
-      "version": "1.8.18",
-      "date": "2026-11-24",
-      "text": "Pre-decode inline photo/video thumbnails off-main, reuse InlineVisualView in-place, cache RowHolder MMS views and typeface, zero-alloc read inbox formatMessage."
     }
   ]
 }
