@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.33",
+  "version": "1.8.34",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.33/messages-improved-1.8.33.zip",
-    "size": 3710630,
-    "sha256": "8efdbe4850d822a7f38500363ee3123634d9574a80992614df26e26e1e87aed6"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.34/messages-improved-1.8.34.zip",
+    "size": 3711072,
+    "sha256": "8d0b1fa220d00897e017bd2f0ac516ec78ebc1f2ab38948cfbe12c7ab0f5ef71"
   },
   "changes": [
+    {
+      "version": "1.8.34",
+      "date": "2026-11-24",
+      "text": "Drop per-row Log.d/v in MessageListItem inflate/init, cache integer and bool resources in ComposeMessageActivity.initResourceRefs, guard inbox snippet setText."
+    },
     {
       "version": "1.8.33",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.25",
       "date": "2026-11-24",
       "text": "Prelaunch page-1 history query and Conversation.Cache warmup from Intent before super.onCreate, cache mSendMmsSupportViaWiFi, reduce compose/inbox allocations."
-    },
-    {
-      "version": "1.8.24",
-      "date": "2026-11-24",
-      "text": "Defer iMessage foreground service/TLS startup 900ms past cold frame #1, pre-populate WaveIMessageDb infoCache off-main, create notification channel once."
     }
   ]
 }
