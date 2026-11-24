@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.30",
+  "version": "1.8.31",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.30/messages-improved-1.8.30.zip",
-    "size": 3710691,
-    "sha256": "c4c942c4319fb0528a4aa44261f4977b09e960b783dde474469c8a99961214ab"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.31/messages-improved-1.8.31.zip",
+    "size": 3710430,
+    "sha256": "cb1f5516ac4dbe3138b13839f624a62d56efcde1c8f12c4952321e35d9c62859"
   },
   "changes": [
+    {
+      "version": "1.8.31",
+      "date": "2026-11-24",
+      "text": "Cache runtime permission grants per process in MessageUtils.checkPermissionsIfNeeded/hasBasicPermissions to skip 14-16 PackageManager Binder IPCs per Activity open."
+    },
     {
       "version": "1.8.30",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.22",
       "date": "2026-11-24",
       "text": "Harvest in-flight Compose/Inbox root inflation Futures on cold start, raise pool priority, yield inbox row prewarm during cold chat open."
-    },
-    {
-      "version": "1.8.21",
-      "date": "2026-11-24",
-      "text": "Single-IPC JPEG decodeCrispBitmap with RGB_565 thumbnails, guard drawRightStatusIndicator visibility, cache Compose XML config booleans."
     }
   ]
 }
