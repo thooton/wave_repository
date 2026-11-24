@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.32",
+  "version": "1.8.33",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.32/messages-improved-1.8.32.zip",
-    "size": 3710471,
-    "sha256": "f4b5c6d484298c91f240830b6a9843cbe0714132ba02ff1f45bb6a3904c945a0"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.33/messages-improved-1.8.33.zip",
+    "size": 3710630,
+    "sha256": "8efdbe4850d822a7f38500363ee3123634d9574a80992614df26e26e1e87aed6"
   },
   "changes": [
+    {
+      "version": "1.8.33",
+      "date": "2026-11-24",
+      "text": "1:1 zero-tokenizer single-lock WaveRecipientCache fast path, lazy-missing single-lock group path, pre-size WavePhoneSnapshot HashMap and raise prime thread priority."
+    },
     {
       "version": "1.8.32",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.24",
       "date": "2026-11-24",
       "text": "Defer iMessage foreground service/TLS startup 900ms past cold frame #1, pre-populate WaveIMessageDb infoCache off-main, create notification channel once."
-    },
-    {
-      "version": "1.8.23",
-      "date": "2026-11-24",
-      "text": "Cache hardware isMultiSimEnabledMms and CountryDetector ISO, 1:1 zero-StringBuilder formatNames, short-circuit empty tapbacks."
     }
   ]
 }
