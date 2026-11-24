@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.34",
+  "version": "1.8.35",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.34/messages-improved-1.8.34.zip",
-    "size": 3711072,
-    "sha256": "8d0b1fa220d00897e017bd2f0ac516ec78ebc1f2ab38948cfbe12c7ab0f5ef71"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.35/messages-improved-1.8.35.zip",
+    "size": 3711140,
+    "sha256": "bd36dd4802ca934a9244893ee13bcc970c5d30bd72fe57d6c7090b65e1794bf2"
   },
   "changes": [
+    {
+      "version": "1.8.35",
+      "date": "2026-11-24",
+      "text": "Zero-alloc ASCII and direct UTF-8 fast path in MessageUtils.extractEncStrFromCursor, drop presentMessage StringBuilder Log.v."
+    },
     {
       "version": "1.8.34",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.26",
       "date": "2026-11-24",
       "text": "Cache Me sender label across MessageItem/isMe, raise MessageItemCache 50->96, raise WaveInboxQuery priority, guard ConversationListItem attachment visibility."
-    },
-    {
-      "version": "1.8.25",
-      "date": "2026-11-24",
-      "text": "Prelaunch page-1 history query and Conversation.Cache warmup from Intent before super.onCreate, cache mSendMmsSupportViaWiFi, reduce compose/inbox allocations."
     }
   ]
 }
