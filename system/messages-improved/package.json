@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.28",
+  "version": "1.8.29",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.28/messages-improved-1.8.28.zip",
-    "size": 3709305,
-    "sha256": "c25d99e48d3e19050a71b13277a4c1bc57dd910317abaaffa19a828e2fc10dd2"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.29/messages-improved-1.8.29.zip",
+    "size": 3709876,
+    "sha256": "3644a89519ef8e7beb124b1f1006e4c0c18841724706db8e55be321b52addf1d"
   },
   "changes": [
+    {
+      "version": "1.8.29",
+      "date": "2026-11-24",
+      "text": "Reuse LetterTileDrawable in-place for named contacts, guard QuickContactBadge setImageDrawable/setVisibility, cache inbox row height dimensions."
+    },
     {
       "version": "1.8.28",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.20",
       "date": "2026-11-24",
       "text": "Fast cached group timestamp join, skip duplicate updateBodyTextView and redundant touch listener/SIM visibility writes, TTL-cached displayName."
-    },
-    {
-      "version": "1.8.19",
-      "date": "2026-11-24",
-      "text": "Skip dead mCanClusterWithPreviousMessage cursor seeks, cache showDateSent bool, guard markAsSelected, TelephonyProvider RAM temp_store and 4MB cache."
     }
   ]
 }
