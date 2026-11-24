@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.23",
+  "version": "1.8.24",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.23/messages-improved-1.8.23.zip",
-    "size": 3706743,
-    "sha256": "43252dc41538aeca4c8d2db15e5102d091d0c64ea1a058a4f4e4e5b071082ed0"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.24/messages-improved-1.8.24.zip",
+    "size": 3706836,
+    "sha256": "8ba459c061ed4714d6719a6195304131c41b5ede29e7bd72070672340d653b96"
   },
   "changes": [
+    {
+      "version": "1.8.24",
+      "date": "2026-11-24",
+      "text": "Defer iMessage foreground service/TLS startup 900ms past cold frame #1, pre-populate WaveIMessageDb infoCache off-main, create notification channel once."
+    },
     {
       "version": "1.8.23",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.15",
       "date": "2026-11-24",
       "text": "Defer 4 onStart BroadcastReceiver IPCs, zero-IPC Configuration.fontScale in inbox rows, cached isAirplaneModeOn."
-    },
-    {
-      "version": "1.8.14",
-      "date": "2026-11-24",
-      "text": "Cold-start root layout pre-inflation, cached Contact rounded avatar, skip duplicate onStart updateTitle and cold Contact cache wipe."
     }
   ]
 }
