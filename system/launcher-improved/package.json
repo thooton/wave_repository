@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "launcher_improved",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/launcher-improved-1.2.1/launcher-improved-1.2.1.zip",
-    "size": 1762704,
-    "sha256": "2aa44c42d3c32f3abcc7336e4ea3e3b14369d502ce8642bab34e4f9a6bfc8eea"
+    "url": "https://github.com/thooton/wave_packages/releases/download/launcher-improved-1.2.2/launcher-improved-1.2.2.zip",
+    "size": 1762656,
+    "sha256": "3e53e423212068ee04319545467cb07dc04796c92a99a99d3eadfe9537139a48"
   },
   "changes": [
+    {
+      "version": "1.2.2",
+      "date": "2026-11-25",
+      "text": "Preview icons for every folder."
+    },
     {
       "version": "1.2.1",
       "date": "2026-11-22",
@@ -39,12 +44,12 @@
       "text": "Add apps and simplify menus."
     },
     {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "date": "2026-11-20",
       "text": "Use the Sonim Messaging and Music icons and restore AppDrawer artwork [skip ci]."
     },
     {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "date": "2026-11-20",
       "text": "Mods: stock-signed builds for Messages, Launcher and Music; remove OEM signing."
     },
@@ -59,24 +64,19 @@
       "text": "Target 11.20.00 and retire AppDrawer."
     },
     {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "date": "2026-11-19",
       "text": "Distinguish historical mod tests from current signed-device checks."
     },
     {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "date": "2026-11-19",
       "text": "Verify renamed Messages hook targets in release builds."
     },
     {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "date": "2026-11-19",
       "text": "Rename Launcher Improved and preserve installed settings."
-    },
-    {
-      "version": "1.2.1",
-      "date": "2026-11-19",
-      "text": "Consolidate mod builds and require authorized release signatures."
     }
   ]
 }
