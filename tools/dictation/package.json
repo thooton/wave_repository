@@ -1,0 +1,72 @@
+{
+  "type": "apk",
+  "name": "Dictation",
+  "summary": "Offline voice dictation into text fields",
+  "description": "On-device English voice dictation with live streaming and automatic punctuation, integrated with Keyboard Improved. Runs completely offline using bundled Asr4All speech weights.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/dictation",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "tools",
+  "id": "com.dictation.xp3",
+  "version": "1.0.3",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/dictation-1.0.3/dictation-1.0.3.apk",
+    "size": 34344777,
+    "sha256": "d5d7fcb83469d307ab0e96133ffe43488dbce2c106f7917912beadfc07187c2b"
+  },
+  "changes": [
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Keep streaming model feedback caches in the native runtime."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Verify VFPv4/FMA on compiled object file since LLD inherits crtbegin ARM attributes."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Force neon-vfpv4 compile flags on armeabi-v7a and parse llvm-readelf ARM attributes."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Add ExecuTorch v1.6.0 native runtime, benchmark CLI, JNI library, and CI build workflow."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Fetch libasr4all.so from the immutable dictation-runtime-0239ff6 release."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-11-24",
+      "text": "Plain blue microphone badge beside the dictation caret."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-11-24",
+      "text": "Use native streaming feedback caches."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-24",
+      "text": "Pin armeabi-v7a libasr4all.so SHA-256, drop per-step stream cache copy, guard debug WAV background start."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-24",
+      "text": "Add offline on-device dictation core and app."
+    }
+  ]
+}
