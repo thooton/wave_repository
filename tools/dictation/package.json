@@ -16,13 +16,18 @@
   "replaces": [],
   "section": "tools",
   "id": "com.dictation.xp3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/dictation-1.0.3/dictation-1.0.3.apk",
-    "size": 34344777,
-    "sha256": "d5d7fcb83469d307ab0e96133ffe43488dbce2c106f7917912beadfc07187c2b"
+    "url": "https://github.com/thooton/wave_packages/releases/download/dictation-1.0.4/dictation-1.0.4.apk",
+    "size": 34361161,
+    "sha256": "62a9e73c2f194573384dea047e6e5937c475ba781c4d38fa9b8bb641f4ade6c5"
   },
   "changes": [
+    {
+      "version": "1.0.4",
+      "date": "2026-11-24",
+      "text": "Raise decode thread pool priority during active sessions."
+    },
     {
       "version": "1.0.3",
       "date": "2026-11-24",
