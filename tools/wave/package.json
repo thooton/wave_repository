@@ -12,50 +12,55 @@
     "sdk": 27
   },
   "id": "com.wave.xp3",
-  "version": "0.7.41",
+  "version": "0.7.42",
   "download": {
-    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.41/wave-0.7.41.apk",
-    "size": 232334,
-    "sha256": "1a5f05363235941e95b350afd6cf2e8ef4682c7a656cf132a622e5bad37b41d2"
+    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.42/wave-0.7.42.apk",
+    "size": 237278,
+    "sha256": "1f063fc9d33d930122d2e1185c5c80b26e819eb5f285f72cb675b8c6bca58ebb"
   },
   "changes": [
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
+      "date": "2026-11-25",
+      "text": "Continue Queuing, OK on Installed, See Version History."
+    },
+    {
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Simplify the root access screen."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Simplify package details and show catalog folders."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Replace the confirm screen with a confirm sheet."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Rename Home sections to Device and Links; allow T9 in Search."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Move Home root status below the welcome header."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Publish Wave with the checked-in debug key."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-20",
       "text": "Oh yeah."
     },
     {
-      "version": "0.7.41",
+      "version": "0.7.42",
       "date": "2026-11-19",
       "text": "Use Android rooting terminology throughout Wave."
     },
@@ -63,11 +68,6 @@
       "version": "0.7.29",
       "date": "2026-11-19",
       "text": "Carries the security review's fixes (module ids must start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address)."
-    },
-    {
-      "version": "0.7.41",
-      "date": "2026-11-19",
-      "text": "Security review (docs/security.md) and its cheap fixes: module ids start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address, and a test that no failure carries a source's token."
     }
   ]
 }
