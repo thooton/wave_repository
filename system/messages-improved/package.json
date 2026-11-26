@@ -21,13 +21,18 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.8.46",
+  "version": "1.9.0",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.8.46/messages-improved-1.8.46.zip",
-    "size": 3720604,
-    "sha256": "fea830b16f85003ed0665f2e6c48036e616a4f4a76383d3590abd786b4a23438"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.9.0/messages-improved-1.9.0.zip",
+    "size": 3721611,
+    "sha256": "9daa04ca6f303cd7e91a8cc7c6408eae6e325554cdb7b675c59a40b1a24c4690"
   },
   "changes": [
+    {
+      "version": "1.9.0",
+      "date": "2026-11-25",
+      "text": "Download iMessage file attachments (PDFs, zips, ...) on demand."
+    },
     {
       "version": "1.8.46",
       "date": "2026-11-24",
@@ -72,11 +77,6 @@
       "version": "1.8.38",
       "date": "2026-11-24",
       "text": "Defer MessagingNotification.init (with lazy sPduPersister), Contact ContentObserver IPC, and non-critical background threads past frame 1."
-    },
-    {
-      "version": "1.8.37",
-      "date": "2026-11-24",
-      "text": "Lazy-init ThumbnailManager (skipping 2 sync PNG decodes) and PduLoaderManager in MmsApp, thread-safe main-looper BackgroundLoaderManager, defer CountryDetector getSystemService IPC."
     }
   ]
 }
