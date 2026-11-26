@@ -21,13 +21,23 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.9.0",
+  "version": "1.9.2",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.9.0/messages-improved-1.9.0.zip",
-    "size": 3721611,
-    "sha256": "9daa04ca6f303cd7e91a8cc7c6408eae6e325554cdb7b675c59a40b1a24c4690"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.9.2/messages-improved-1.9.2.zip",
+    "size": 3724761,
+    "sha256": "2e420353e156572afeef1a1576d7f920b1250dd638ec1e8d31c3aa6a55262d24"
   },
   "changes": [
+    {
+      "version": "1.9.2",
+      "date": "2026-11-25",
+      "text": "Simpler file cards."
+    },
+    {
+      "version": "1.9.1",
+      "date": "2026-11-25",
+      "text": "Show iMessage files as cards (icon, name, size)."
+    },
     {
       "version": "1.9.0",
       "date": "2026-11-25",
@@ -67,16 +77,6 @@
       "version": "1.8.40",
       "date": "2026-11-24",
       "text": "Non-blocking SharedPreferences XML disk load kick-off at app_start, cache ConversationList config bool and status bar color."
-    },
-    {
-      "version": "1.8.39",
-      "date": "2026-11-24",
-      "text": "Raise WaveRowPool root harvest timeout to 450ms, chain inbox-row prewarm after inbox-root finishes, mark compose active in obtainComposeRoot."
-    },
-    {
-      "version": "1.8.38",
-      "date": "2026-11-24",
-      "text": "Defer MessagingNotification.init (with lazy sPduPersister), Contact ContentObserver IPC, and non-critical background threads past frame 1."
     }
   ]
 }
