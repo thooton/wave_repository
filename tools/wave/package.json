@@ -12,13 +12,18 @@
     "sdk": 27
   },
   "id": "com.wave.xp3",
-  "version": "0.7.44",
+  "version": "0.7.45",
   "download": {
-    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.44/wave-0.7.44.apk",
-    "size": 235678,
-    "sha256": "7f79d8f5d0f464ff2dc739f583464b7baf8c47e00c018182da7679d97dfe99bf"
+    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.45/wave-0.7.45.apk",
+    "size": 236442,
+    "sha256": "e2ac2079f16a25a64bb48150b7c1eca3ec3f1032eeda372d9f76475bc0e5ed69"
   },
   "changes": [
+    {
+      "version": "0.7.45",
+      "date": "2026-11-27",
+      "text": "Draw Markdown tables in package descriptions."
+    },
     {
       "version": "0.7.44",
       "date": "2026-11-27",
@@ -35,39 +40,34 @@
       "text": "Continue Queuing, OK on Installed, See Version History."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Simplify the root access screen."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Simplify package details and show catalog folders."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Replace the confirm screen with a confirm sheet."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Rename Home sections to Device and Links; allow T9 in Search."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Move Home root status below the welcome header."
     },
     {
-      "version": "0.7.44",
+      "version": "0.7.45",
       "date": "2026-11-20",
       "text": "Publish Wave with the checked-in debug key."
-    },
-    {
-      "version": "0.7.44",
-      "date": "2026-11-20",
-      "text": "Oh yeah."
     }
   ]
 }
