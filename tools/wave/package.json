@@ -40,32 +40,32 @@
       "text": "Continue Queuing, OK on Installed, See Version History."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.41",
       "date": "2026-11-20",
       "text": "Simplify the root access screen."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.40",
       "date": "2026-11-20",
       "text": "Simplify package details and show catalog folders."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.39",
       "date": "2026-11-20",
       "text": "Replace the confirm screen with a confirm sheet."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.36",
       "date": "2026-11-20",
       "text": "Rename Home sections to Device and Links; allow T9 in Search."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.34",
       "date": "2026-11-20",
       "text": "Move Home root status below the welcome header."
     },
     {
-      "version": "0.7.45",
+      "version": "0.7.33",
       "date": "2026-11-20",
       "text": "Publish Wave with the checked-in debug key."
     }
