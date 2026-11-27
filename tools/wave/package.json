@@ -12,62 +12,62 @@
     "sdk": 27
   },
   "id": "com.wave.xp3",
-  "version": "0.7.42",
+  "version": "0.7.44",
   "download": {
-    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.42/wave-0.7.42.apk",
-    "size": 237278,
-    "sha256": "1f063fc9d33d930122d2e1185c5c80b26e819eb5f285f72cb675b8c6bca58ebb"
+    "url": "https://github.com/thooton/wave/releases/download/wave-0.7.44/wave-0.7.44.apk",
+    "size": 235678,
+    "sha256": "7f79d8f5d0f464ff2dc739f583464b7baf8c47e00c018182da7679d97dfe99bf"
   },
   "changes": [
+    {
+      "version": "0.7.44",
+      "date": "2026-11-27",
+      "text": "Confirm is black at rest like every Wave button."
+    },
+    {
+      "version": "0.7.43",
+      "date": "2026-11-27",
+      "text": "Cydia-style Confirm screen and plainer messages."
+    },
     {
       "version": "0.7.42",
       "date": "2026-11-25",
       "text": "Continue Queuing, OK on Installed, See Version History."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Simplify the root access screen."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Simplify package details and show catalog folders."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Replace the confirm screen with a confirm sheet."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Rename Home sections to Device and Links; allow T9 in Search."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Move Home root status below the welcome header."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Publish Wave with the checked-in debug key."
     },
     {
-      "version": "0.7.42",
+      "version": "0.7.44",
       "date": "2026-11-20",
       "text": "Oh yeah."
-    },
-    {
-      "version": "0.7.42",
-      "date": "2026-11-19",
-      "text": "Use Android rooting terminology throughout Wave."
-    },
-    {
-      "version": "0.7.29",
-      "date": "2026-11-19",
-      "text": "Carries the security review's fixes (module ids must start alphanumeric and a too-long id fails its step, the self-update copy is removed before root copies over it, the add-source dialog shows the address)."
     }
   ]
 }
