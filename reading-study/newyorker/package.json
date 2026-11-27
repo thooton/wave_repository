@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "New Yorker",
-  "summary": "Read New Yorker articles on the flip phone",
-  "description": "Browse articles and read them in a layout built for the XP3800 screen and directional keys.",
+  "summary": "In-depth reporting and cultural commentary",
+  "description": "This is an app that provides an easy browsing experience for the New Yorker.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/newyorker",
   "requires": {

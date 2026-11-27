@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "List",
-  "summary": "Write and check off simple lists",
-  "description": "Make checklists and manage items with the keypad and directional buttons. Designed for errands, packing and other short lists.",
+  "summary": "A to-do list app!",
+  "description": "Stay organized and manage your daily life with this simple to-do app.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/list",
   "requires": {

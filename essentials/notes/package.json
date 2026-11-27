@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Notes",
-  "summary": "Jot down notes, styled after Apple Notes",
-  "description": "Write and organise notes in folders, with search across every folder, pinned notes and a Recently Deleted folder that keeps notes for 30 days. Notes stay on the phone; the app has no network access.",
+  "summary": "Quick and easy note application",
+  "description": "This is a simple plain-text note application.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/notes",
   "requires": {

@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Print",
-  "summary": "Print a PDF over your local Wi-Fi",
-  "description": "Choose a PDF stored on the phone and send it to a compatible network printer. No desktop printer driver needed.",
+  "summary": "Print over the local network",
+  "description": "This app allows you to print PDFs to printers on your local network.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/print",
   "requires": {

@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Flashcards",
-  "summary": "Review cards with spaced repetition",
-  "description": "Study your decks with Anki-style queues and FSRS scheduling. Use the keypad to grade each answer and resume your reviews later.",
+  "summary": "Review flashcards using the Anki algorithm",
+  "description": "This is a simple flashcards app that copies Anki's algorithm (specifically the latest FSRS-based one). Benefit from spaced repetition in an easy-to-use interface!",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/flashcards",
   "requires": {

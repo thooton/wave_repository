@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "Music Improved",
-  "summary": "Choose which microSD folders appear in Music",
-  "description": "Limit the stock Music library to folders you choose. This filters discovery, search and shuffle without deleting songs or rewriting playlists.",
+  "summary": "An improved Music app",
+  "description": "This tweak adds folder whitelisting to Music so that it doesn't scrounge up literally every single audio file across your entire phone and SD card, you can choose what it looks for.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/music",
   "requires": {

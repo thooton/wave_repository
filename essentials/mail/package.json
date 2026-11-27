@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Mail",
-  "summary": "Read and send Gmail with the keypad",
-  "description": "Check your inbox, open threads and send replies on the flip phone. Import your own Gmail setup file before signing in.",
+  "summary": "An easy-to-use Gmail app",
+  "description": "Access your Gmail inbox on your Sonim XP3800! You can read threads, scroll through your inbox, and send replies and new emails.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/mail",
   "requires": {

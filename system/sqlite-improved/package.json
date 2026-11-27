@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "SQLite Improved",
-  "summary": "SQLite 3.44.4 for the XP3800",
-  "description": "Replaces the stock system SQLite library with SQLite 3.44.4. Supports 32-bit XP3800 firmware 11.17.00 and 11.20.00. Root and Magisk are required. This affects all apps that use the system SQLite library; keep a verified boot backup before installing.",
+  "summary": "Use SQLite 3.44.4",
+  "description": "This tweak adds SQLite 3.44.4 for better system-wide database performance. The improvement varies by workload, but in a benchmark of the Messages and Contacts databases, queries ran 25% faster.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/sqlite",
   "requires": {

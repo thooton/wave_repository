@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Authenticator",
-  "summary": "Two-factor codes for the accounts you use",
-  "description": "Keep time-based one-time codes on your phone. Add accounts from setup files, an image, or the keypad.",
+  "summary": "Simple TOTP 2FA app",
+  "description": "Use Authenticator for simple, secure sign-ins for your online accounts that support time-based OTP codes for 2FA. You can add accounts using the keypad, an image, or setup files.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/authenticator",
   "requires": {

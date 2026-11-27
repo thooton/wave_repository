@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Charge",
-  "summary": "Find Tesla Superchargers and manage charging",
-  "description": "Look up Superchargers, keep favorites, and start or monitor supported charging sessions after importing your Tesla setup file.",
+  "summary": "Find EV chargers near you",
+  "description": "This app allows you to find EV chargers near you and use them! Currently, only Tesla Superchargers are supported.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/charge",
   "requires": {

@@ -1,0 +1,37 @@
+{
+  "type": "apk",
+  "name": "Recipes",
+  "summary": "Keep recipes and cook from them",
+  "description": "Write down recipes with their ingredients, steps and notes, and find them again by title or ingredient. Cook from a recipe with the keypad: change the servings and the amounts follow, and tick off ingredients and steps as you go. Works offline.",
+  "author": "thooton",
+  "homepage": "https://github.com/thooton/wave_packages/tree/master/recipes",
+  "requires": {
+    "device": [
+      "XP3800"
+    ],
+    "sdk": 27
+  },
+  "depends": [],
+  "conflicts": [],
+  "replaces": [],
+  "section": "essentials",
+  "id": "com.recipes.xp3",
+  "version": "1.0.0",
+  "download": {
+    "url": "https://github.com/thooton/wave_packages/releases/download/recipes-1.0.0/recipes-1.0.0.apk",
+    "size": 75067,
+    "sha256": "c966b7ce5538b0fc04857db7eee9d1de1d4efff447d27d7d37ad81858e0f4462"
+  },
+  "changes": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-27",
+      "text": "Revise catalog descriptions and retire Book Recs."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-23",
+      "text": "A recipe box for the XP3, with servings that scale the amounts and ingredients and steps to tick off while cooking."
+    }
+  ]
+}

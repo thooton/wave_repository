@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Places",
-  "summary": "Find businesses and other places with Google Maps",
-  "description": "Search nearby places and see useful details such as location and contact information. Import your own Maps setup file first.",
+  "summary": "Search places on Google Maps",
+  "description": "This app allows you to search for places on Google Maps around a certain location. It requires a Places API key that you can create on GCP.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/places",
   "requires": {

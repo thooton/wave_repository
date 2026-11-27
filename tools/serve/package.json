@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Serve",
-  "summary": "Share a folder over local Wi-Fi",
-  "description": "Pick a folder and serve its files over HTTP to a browser on the same network. Stop the server when you are done sharing.",
+  "summary": "Share a folder over the local network",
+  "description": "This app is similar to npx serve, it allows you to serve a folder over your local network. I have found it useful for transferring files to devices like the Kindle.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/serve",
   "requires": {

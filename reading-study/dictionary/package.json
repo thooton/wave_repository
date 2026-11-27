@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Dictionary",
-  "summary": "Look up words in an offline WordNet dictionary",
-  "description": "Search headwords and read definitions, example sentences and synonyms. The dictionary data is on the phone, so no connection is needed.",
+  "summary": "A simple dictionary app",
+  "description": "This is a simple dictionary app that works offline through a bundled dictionary!",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/dictionary",
   "requires": {

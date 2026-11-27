@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Canvas",
-  "summary": "Courses, assignments and grades on your phone",
-  "description": "See assignments in a weekly view, check grades and discussions, and revisit cached coursework offline. Import your own Canvas setup file.",
+  "summary": "View and submit Canvas assignments",
+  "description": "This is a Canvas app for the Sonim XP3800! It is fully-featured and allows you to view your courses, assignments, grades, and submit work (either plain-text or a file). It requires you to run a refresh service on a server in order to keep your authentication cookie alive, more details inside the app.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/canvas",
   "requires": {

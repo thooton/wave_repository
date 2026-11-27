@@ -1,8 +1,8 @@
 {
   "type": "module",
   "name": "Launcher Improved",
-  "summary": "Add, arrange and hide apps in the stock tray",
-  "description": "Add installed apps to the tray or to folders, including apps that were hidden or unlisted. Shorter menus group editing actions together. Quick Settings initializes when opened, not when the tray starts.",
+  "summary": "An improved Sonim launcher",
+  "description": "This tweak adds folders to the launcher and allows you to move apps around.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/mods/launcher",
   "requires": {
