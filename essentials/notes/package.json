@@ -16,13 +16,18 @@
   "replaces": [],
   "section": "essentials",
   "id": "com.notes.xp3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/notes-1.0.0/notes-1.0.0.apk",
-    "size": 95763,
-    "sha256": "67f1ff285b94a227ab9813032a16305de41e0313c25b5d74b1cae7ad3cbac459"
+    "url": "https://github.com/thooton/wave_packages/releases/download/notes-1.0.1/notes-1.0.1.apk",
+    "size": 95723,
+    "sha256": "dc2296967578cc4e137600cfca1e2675ffca5193ea37e0f1369f64cdd4293d24"
   },
   "changes": [
+    {
+      "version": "1.0.1",
+      "date": "2026-11-26",
+      "text": "No \"On My Phone\", no date sections, SF-like lettering."
+    },
     {
       "version": "1.0.0",
       "date": "2026-11-21",
