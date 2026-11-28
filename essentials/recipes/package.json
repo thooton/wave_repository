@@ -1,8 +1,8 @@
 {
   "type": "apk",
   "name": "Recipes",
-  "summary": "Keep recipes and cook from them",
-  "description": "Write down recipes with their ingredients, steps and notes, and find them again by title or ingredient. Cook from a recipe with the keypad: change the servings and the amounts follow, and tick off ingredients and steps as you go. Works offline.",
+  "summary": "Find recipes and cook from them",
+  "description": "Search NYT Cooking recipes on your own recipe server and cook from them with the keypad: change the servings and the amounts follow, and tick off ingredients and steps as you go. Set up with the server's address and token.",
   "author": "thooton",
   "homepage": "https://github.com/thooton/wave_packages/tree/master/recipes",
   "requires": {
@@ -16,15 +16,25 @@
   "replaces": [],
   "section": "essentials",
   "id": "com.recipes.xp3",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/recipes-1.0.0/recipes-1.0.0.apk",
-    "size": 75067,
-    "sha256": "c966b7ce5538b0fc04857db7eee9d1de1d4efff447d27d7d37ad81858e0f4462"
+    "url": "https://github.com/thooton/wave_packages/releases/download/recipes-1.2.0/recipes-1.2.0.apk",
+    "size": 704581,
+    "sha256": "73e0e2842a9ece354c477b27c86a424b3d84257c1c1afea5810a95f3ebec2b5d"
   },
   "changes": [
     {
-      "version": "1.0.0",
+      "version": "1.2.0",
+      "date": "2026-11-28",
+      "text": "NYT Cooking through the recipe server."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-28",
+      "text": "A read-only recipe finder with a pluggable source."
+    },
+    {
+      "version": "1.2.0",
       "date": "2026-11-27",
       "text": "Revise catalog descriptions and retire Book Recs."
     },
