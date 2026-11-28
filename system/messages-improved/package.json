@@ -21,13 +21,23 @@
   ],
   "section": "system",
   "id": "messages_improved",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "download": {
-    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.9.2/messages-improved-1.9.2.zip",
-    "size": 3724761,
-    "sha256": "2e420353e156572afeef1a1576d7f920b1250dd638ec1e8d31c3aa6a55262d24"
+    "url": "https://github.com/thooton/wave_packages/releases/download/messages-improved-1.9.3/messages-improved-1.9.3.zip",
+    "size": 3724965,
+    "sha256": "3e1d765d40d89b2089ca4235bf395cb1604a264574dd8f27a321961fd36bfa3f"
   },
   "changes": [
+    {
+      "version": "1.9.3",
+      "date": "2026-11-27",
+      "text": "Release MMS process binding on teardown."
+    },
+    {
+      "version": "1.9.3",
+      "date": "2026-11-27",
+      "text": "Revise catalog descriptions and retire Book Recs."
+    },
     {
       "version": "1.9.2",
       "date": "2026-11-25",
@@ -67,16 +77,6 @@
       "version": "1.8.42",
       "date": "2026-11-24",
       "text": "Strip MIME parameters and allow application/ogg in iMessage media routing."
-    },
-    {
-      "version": "1.8.41",
-      "date": "2026-11-24",
-      "text": "Cached RTL locale check, zero-alloc Arabic scan replacing per-row Pattern.compile, cached MMS snippet prefix, setTextIfChanged/setVisibilityIfChanged on inbox rows, cached MessageItem config bools."
-    },
-    {
-      "version": "1.8.40",
-      "date": "2026-11-24",
-      "text": "Non-blocking SharedPreferences XML disk load kick-off at app_start, cache ConversationList config bool and status bar color."
     }
   ]
 }
